@@ -1,0 +1,778 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="394" height="306"
+     viewBox="0 0 394 306"
+     style="background-color:#0d1117;">
+  <style>
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+  </style>
+  <defs>
+    <clipPath id="row-clip-0">
+      <rect x="5" y="5.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="0ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-1">
+      <rect x="5" y="13.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="80ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-2">
+      <rect x="5" y="21.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="160ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-3">
+      <rect x="5" y="29.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="240ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-4">
+      <rect x="5" y="37.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="320ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-5">
+      <rect x="5" y="45.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="400ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-6">
+      <rect x="5" y="53.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="480ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-7">
+      <rect x="5" y="61.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="560ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-8">
+      <rect x="5" y="69.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="640ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-9">
+      <rect x="5" y="77.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="720ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-10">
+      <rect x="5" y="85.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="800ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-11">
+      <rect x="5" y="93.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="880ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-12">
+      <rect x="5" y="101.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="960ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-13">
+      <rect x="5" y="109.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1040ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-14">
+      <rect x="5" y="117.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1120ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-15">
+      <rect x="5" y="125.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1200ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-16">
+      <rect x="5" y="133.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1280ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-17">
+      <rect x="5" y="141.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1360ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-18">
+      <rect x="5" y="149.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1440ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-19">
+      <rect x="5" y="157.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1520ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-20">
+      <rect x="5" y="165.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1600ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-21">
+      <rect x="5" y="173.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1680ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-22">
+      <rect x="5" y="181.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1760ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-23">
+      <rect x="5" y="189.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1840ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-24">
+      <rect x="5" y="197.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="1920ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-25">
+      <rect x="5" y="205.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="2000ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-26">
+      <rect x="5" y="213.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="2080ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-27">
+      <rect x="5" y="221.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="2160ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-28">
+      <rect x="5" y="229.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="2240ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-29">
+      <rect x="5" y="237.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="2320ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-30">
+      <rect x="5" y="245.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="2400ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-31">
+      <rect x="5" y="253.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="2480ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-32">
+      <rect x="5" y="261.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="2560ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-33">
+      <rect x="5" y="269.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="2640ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-34">
+      <rect x="5" y="277.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="2720ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="row-clip-35">
+      <rect x="5" y="285.0"
+            width="0" height="8.0">
+        <animate attributeName="width"
+                 from="0" to="384.0"
+                 dur="2400ms" begin="2800ms"
+                 fill="freeze" />
+      </rect>
+    </clipPath>
+  </defs>
+  <text x="5" y="11.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-0)">
+                                                                                    
+  </text>
+  <rect x="390.0" y="6.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 2400ms;">
+  </rect>
+  <text x="5" y="19.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-1)">
+                                                                                    
+  </text>
+  <rect x="390.0" y="14.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 2480ms;">
+  </rect>
+  <text x="5" y="27.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-2)">
+                                   :=++*****+--:`                                   
+  </text>
+  <rect x="390.0" y="22.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 2560ms;">
+  </rect>
+  <text x="5" y="35.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-3)">
+                                :+ccs#sccs####s#sc*-.                               
+  </text>
+  <rect x="390.0" y="30.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 2640ms;">
+  </rect>
+  <text x="5" y="43.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-4)">
+                              :ccsscss##ss##%#######s+.                             
+  </text>
+  <rect x="390.0" y="38.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 2720ms;">
+  </rect>
+  <text x="5" y="51.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-5)">
+                            `*css##ss####s#s###%######c.                            
+  </text>
+  <rect x="390.0" y="46.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 2800ms;">
+  </rect>
+  <text x="5" y="59.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-6)">
+                           .*#sc#ccscc##s##scc#%#######*                            
+  </text>
+  <rect x="390.0" y="54.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 2880ms;">
+  </rect>
+  <text x="5" y="67.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-7)">
+                           `*#s#sccscs**cs##scccss#%####.                           
+  </text>
+  <rect x="390.0" y="62.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 2960ms;">
+  </rect>
+  <text x="5" y="75.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-8)">
+                           `cs##+--=-`:-.`::`:-+**c#%#%#.                           
+  </text>
+  <rect x="390.0" y="70.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3040ms;">
+  </rect>
+  <text x="5" y="83.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-9)">
+                            *sss-`..           .`-=*#%%s                            
+  </text>
+  <rect x="390.0" y="78.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3120ms;">
+  </rect>
+  <text x="5" y="91.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-10)">
+                            .csc:`-=====:  .-++****+c%#c:                           
+  </text>
+  <rect x="390.0" y="86.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3200ms;">
+  </rect>
+  <text x="5" y="99.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-11)">
+                            ``=+-=*c**cc+::+*++***+++++=*                           
+  </text>
+  <rect x="390.0" y="94.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3280ms;">
+  </rect>
+  <text x="5" y="107.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-12)">
+                             .`=-=+*===-`-.-*+:````--*c*:                           
+  </text>
+  <rect x="390.0" y="102.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3360ms;">
+  </rect>
+  <text x="5" y="115.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-13)">
+                             ..-`:`.    ..  ==    .:-c*=                            
+  </text>
+  <rect x="390.0" y="110.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3440ms;">
+  </rect>
+  <text x="5" y="123.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-14)">
+                              .`+:``````.:`-*=+`..:=**:                             
+  </text>
+  <rect x="390.0" y="118.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3520ms;">
+  </rect>
+  <text x="5" y="131.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-15)">
+                                +*-``-*++**+cc*+=`=*s`                              
+  </text>
+  <rect x="390.0" y="126.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3600ms;">
+  </rect>
+  <text x="5" y="139.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-16)">
+                                .*c*=-``::`:-=---=c#*                               
+  </text>
+  <rect x="390.0" y="134.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3680ms;">
+  </rect>
+  <text x="5" y="147.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-17)">
+                                  +#s+-:-==+=-:=c#%#:                               
+  </text>
+  <rect x="390.0" y="142.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3760ms;">
+  </rect>
+  <text x="5" y="155.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-18)">
+                                   :c###c*+=+cs#%%s+:..                             
+  </text>
+  <rect x="390.0" y="150.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3840ms;">
+  </rect>
+  <text x="5" y="163.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-19)">
+                                    :-*s#%####%%#c-..:sc:                           
+  </text>
+  <rect x="390.0" y="158.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 3920ms;">
+  </rect>
+  <text x="5" y="171.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-20)">
+                                   `-::-=+*cccc=:  `-s###c-                         
+  </text>
+  <rect x="390.0" y="166.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4000ms;">
+  </rect>
+  <text x="5" y="179.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-21)">
+                                   `*:`::::-:`    `=s#######c*=:`                   
+  </text>
+  <rect x="390.0" y="174.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4080ms;">
+  </rect>
+  <text x="5" y="187.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-22)">
+                            .:=*`.``c=::::`...  ``*ss######ssss###sc+=:`.           
+  </text>
+  <rect x="390.0" y="182.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4160ms;">
+  </rect>
+  <text x="5" y="195.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-23)">
+                       `:=*s###s :=  -+::...    :c#########ssssss########sc*=`      
+  </text>
+  <rect x="390.0" y="190.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4240ms;">
+  </rect>
+  <text x="5" y="203.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-24)">
+                  `+*cs#########`.    .+-      .c#####sssssssssssss#ss#s######c`    
+  </text>
+  <rect x="390.0" y="198.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4320ms;">
+  </rect>
+  <text x="5" y="211.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-25)">
+                 =#############s:       :...  .c###sss#s##ssssssssssssss########.   
+  </text>
+  <rect x="390.0" y="206.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4400ms;">
+  </rect>
+  <text x="5" y="219.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-26)">
+                `##ss##########*             .c####ssss#sssssssssssssss#######%%*   
+  </text>
+  <rect x="390.0" y="214.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4480ms;">
+  </rect>
+  <text x="5" y="227.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-27)">
+                =#sssssss#####s=             c####sss##sssssssssssssss###########   
+  </text>
+  <rect x="390.0" y="222.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4560ms;">
+  </rect>
+  <text x="5" y="235.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-28)">
+                *#sssssss#####c:            *##sssss#sssssssssssssssss###########`  
+  </text>
+  <rect x="390.0" y="230.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4640ms;">
+  </rect>
+  <text x="5" y="243.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-29)">
+               `c#sssssssss###c`           +sssssss#ssssssssssssss#sss#ss########*  
+  </text>
+  <rect x="390.0" y="238.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4720ms;">
+  </rect>
+  <text x="5" y="251.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-30)">
+               +c#ssssssssss#sc.          =ssssssssssssssssssssss##ssss###########+ 
+  </text>
+  <rect x="390.0" y="246.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4800ms;">
+  </rect>
+  <text x="5" y="259.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-31)">
+               cssscssssss###sc.         -ssssssssccccssssssssss#%ssssssss#########:
+  </text>
+  <rect x="390.0" y="254.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4880ms;">
+  </rect>
+  <text x="5" y="267.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-32)">
+              `csssccssssss###s`        `ssssssssccccsssssss#ss#%#sssssssss######%%=
+  </text>
+  <rect x="390.0" y="262.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 4960ms;">
+  </rect>
+  <text x="5" y="275.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-33)">
+              =sss#ccsssss####s-        csssssssccccssssssssss#%%scccssssss#########
+  </text>
+  <rect x="390.0" y="270.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 5040ms;">
+  </rect>
+  <text x="5" y="283.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-34)">
+              *ss##sccsssss####+       +s#sss#ssssssssssssssss#%%sssssssssss#####%%#
+  </text>
+  <rect x="390.0" y="278.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end 2;
+                      animation-delay: 5120ms;">
+  </rect>
+  <text x="5" y="291.8"
+        font-family="'Courier New', 'Courier', monospace" font-size="8"
+        fill="#c9d1d9"
+        clip-path="url(#row-clip-35)">
+             `sss###ccsssss####c.     `s##ss#ssscssss##sssss##%%%sssssssssss########
+  </text>
+  <rect x="390.0" y="286.0"
+        width="3.2" height="6.0"
+        fill="#c9d1d9"
+        style="animation: blink 500ms step-end infinite;
+                      animation-delay: 5200ms;">
+  </rect>
+  <text x="5" y="305.0"
+        font-family="'Courier New', 'Courier', monospace" font-size="6.4"
+        fill="#c9d1d9"
+        style="animation: fadeIn 500ms ease-out 5280ms both;">
+    █
+  </text>
+</svg>

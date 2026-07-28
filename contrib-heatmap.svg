@@ -1,0 +1,2055 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="916" height="222"
+     viewBox="0 0 916 222"
+     style="background-color:#0d1117;">
+  <style>
+    @keyframes cellReveal {
+      from {
+        opacity: 0;
+        transform: translateY(-8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+  </style>
+  <text x="50" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 0ms both;">
+    Jul
+  </text>
+  <text x="66" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 5ms both;">
+    Aug
+  </text>
+  <text x="146" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 30ms both;">
+    Sep
+  </text>
+  <text x="210" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 50ms both;">
+    Oct
+  </text>
+  <text x="274" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 70ms both;">
+    Nov
+  </text>
+  <text x="354" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 95ms both;">
+    Dec
+  </text>
+  <text x="418" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 115ms both;">
+    Jan
+  </text>
+  <text x="482" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 135ms both;">
+    Feb
+  </text>
+  <text x="546" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 155ms both;">
+    Mar
+  </text>
+  <text x="626" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 180ms both;">
+    Apr
+  </text>
+  <text x="690" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 200ms both;">
+    May
+  </text>
+  <text x="770" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 225ms both;">
+    Jun
+  </text>
+  <text x="834" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 245ms both;">
+    Jul
+  </text>
+  <text x="10" y="42"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="end"
+        style="animation: fadeIn 300ms ease-out 0ms both;">
+    Mon
+  </text>
+  <text x="10" y="74"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="end"
+        style="animation: fadeIn 300ms ease-out 100ms both;">
+    Wed
+  </text>
+  <text x="10" y="106"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="end"
+        style="animation: fadeIn 300ms ease-out 200ms both;">
+    Fri
+  </text>
+  <rect x="44" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 0ms both;" />
+  <rect x="44" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 5ms both;" />
+  <rect x="44" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 10ms both;" />
+  <rect x="44" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 15ms both;" />
+  <rect x="44" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 20ms both;" />
+  <rect x="44" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 25ms both;" />
+  <rect x="44" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 30ms both;" />
+  <rect x="60" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 5ms both;" />
+  <rect x="60" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 10ms both;" />
+  <rect x="60" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 15ms both;" />
+  <rect x="60" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 20ms both;" />
+  <rect x="60" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 25ms both;" />
+  <rect x="60" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 30ms both;" />
+  <rect x="60" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 35ms both;" />
+  <rect x="76" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 10ms both;" />
+  <rect x="76" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 15ms both;" />
+  <rect x="76" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 20ms both;" />
+  <rect x="76" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 25ms both;" />
+  <rect x="76" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 30ms both;" />
+  <rect x="76" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 35ms both;" />
+  <rect x="76" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 40ms both;" />
+  <rect x="92" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 15ms both;" />
+  <rect x="92" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 20ms both;" />
+  <rect x="92" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 25ms both;" />
+  <rect x="92" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 30ms both;" />
+  <rect x="92" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 35ms both;" />
+  <rect x="92" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 40ms both;" />
+  <rect x="92" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 45ms both;" />
+  <rect x="108" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 20ms both;" />
+  <rect x="108" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 25ms both;" />
+  <rect x="108" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 30ms both;" />
+  <rect x="108" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 35ms both;" />
+  <rect x="108" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 40ms both;" />
+  <rect x="108" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 45ms both;" />
+  <rect x="108" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 50ms both;" />
+  <rect x="124" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 25ms both;" />
+  <rect x="124" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 30ms both;" />
+  <rect x="124" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 35ms both;" />
+  <rect x="124" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 40ms both;" />
+  <rect x="124" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 45ms both;" />
+  <rect x="124" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 50ms both;" />
+  <rect x="124" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 55ms both;" />
+  <rect x="140" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 30ms both;" />
+  <rect x="140" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 35ms both;" />
+  <rect x="140" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 40ms both;" />
+  <rect x="140" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 45ms both;" />
+  <rect x="140" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 50ms both;" />
+  <rect x="140" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 55ms both;" />
+  <rect x="140" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 60ms both;" />
+  <rect x="156" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 35ms both;" />
+  <rect x="156" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 40ms both;" />
+  <rect x="156" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 45ms both;" />
+  <rect x="156" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 50ms both;" />
+  <rect x="156" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 55ms both;" />
+  <rect x="156" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 60ms both;" />
+  <rect x="156" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 65ms both;" />
+  <rect x="172" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 40ms both;" />
+  <rect x="172" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 45ms both;" />
+  <rect x="172" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 50ms both;" />
+  <rect x="172" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 55ms both;" />
+  <rect x="172" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 60ms both;" />
+  <rect x="172" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 65ms both;" />
+  <rect x="172" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 70ms both;" />
+  <rect x="188" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 45ms both;" />
+  <rect x="188" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 50ms both;" />
+  <rect x="188" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 55ms both;" />
+  <rect x="188" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 60ms both;" />
+  <rect x="188" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 65ms both;" />
+  <rect x="188" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 70ms both;" />
+  <rect x="188" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 75ms both;" />
+  <rect x="204" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 50ms both;" />
+  <rect x="204" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 55ms both;" />
+  <rect x="204" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 60ms both;" />
+  <rect x="204" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 65ms both;" />
+  <rect x="204" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 70ms both;" />
+  <rect x="204" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 75ms both;" />
+  <rect x="204" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 80ms both;" />
+  <rect x="220" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 55ms both;" />
+  <rect x="220" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 60ms both;" />
+  <rect x="220" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 65ms both;" />
+  <rect x="220" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 70ms both;" />
+  <rect x="220" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 75ms both;" />
+  <rect x="220" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 80ms both;" />
+  <rect x="220" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 85ms both;" />
+  <rect x="236" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 60ms both;" />
+  <rect x="236" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 65ms both;" />
+  <rect x="236" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 70ms both;" />
+  <rect x="236" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 75ms both;" />
+  <rect x="236" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 80ms both;" />
+  <rect x="236" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 85ms both;" />
+  <rect x="236" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 90ms both;" />
+  <rect x="252" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 65ms both;" />
+  <rect x="252" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 70ms both;" />
+  <rect x="252" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 75ms both;" />
+  <rect x="252" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 80ms both;" />
+  <rect x="252" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 85ms both;" />
+  <rect x="252" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 90ms both;" />
+  <rect x="252" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 95ms both;" />
+  <rect x="268" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 70ms both;" />
+  <rect x="268" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 75ms both;" />
+  <rect x="268" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 80ms both;" />
+  <rect x="268" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 85ms both;" />
+  <rect x="268" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 90ms both;" />
+  <rect x="268" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 95ms both;" />
+  <rect x="268" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 100ms both;" />
+  <rect x="284" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 75ms both;" />
+  <rect x="284" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 80ms both;" />
+  <rect x="284" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 85ms both;" />
+  <rect x="284" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 90ms both;" />
+  <rect x="284" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 95ms both;" />
+  <rect x="284" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 100ms both;" />
+  <rect x="284" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 105ms both;" />
+  <rect x="300" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 80ms both;" />
+  <rect x="300" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 85ms both;" />
+  <rect x="300" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 90ms both;" />
+  <rect x="300" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 95ms both;" />
+  <rect x="300" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 100ms both;" />
+  <rect x="300" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 105ms both;" />
+  <rect x="300" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 110ms both;" />
+  <rect x="316" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 85ms both;" />
+  <rect x="316" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 90ms both;" />
+  <rect x="316" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 95ms both;" />
+  <rect x="316" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 100ms both;" />
+  <rect x="316" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 105ms both;" />
+  <rect x="316" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 110ms both;" />
+  <rect x="316" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 115ms both;" />
+  <rect x="332" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 90ms both;" />
+  <rect x="332" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 95ms both;" />
+  <rect x="332" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 100ms both;" />
+  <rect x="332" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 105ms both;" />
+  <rect x="332" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 110ms both;" />
+  <rect x="332" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 115ms both;" />
+  <rect x="332" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 120ms both;" />
+  <rect x="348" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 95ms both;" />
+  <rect x="348" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 100ms both;" />
+  <rect x="348" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 105ms both;" />
+  <rect x="348" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 110ms both;" />
+  <rect x="348" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 115ms both;" />
+  <rect x="348" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 120ms both;" />
+  <rect x="348" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 125ms both;" />
+  <rect x="364" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 100ms both;" />
+  <rect x="364" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 105ms both;" />
+  <rect x="364" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 110ms both;" />
+  <rect x="364" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 115ms both;" />
+  <rect x="364" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 120ms both;" />
+  <rect x="364" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 125ms both;" />
+  <rect x="364" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 130ms both;" />
+  <rect x="380" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 105ms both;" />
+  <rect x="380" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 110ms both;" />
+  <rect x="380" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 115ms both;" />
+  <rect x="380" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 120ms both;" />
+  <rect x="380" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 125ms both;" />
+  <rect x="380" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 130ms both;" />
+  <rect x="380" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 135ms both;" />
+  <rect x="396" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 110ms both;" />
+  <rect x="396" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 115ms both;" />
+  <rect x="396" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 120ms both;" />
+  <rect x="396" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 125ms both;" />
+  <rect x="396" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 130ms both;" />
+  <rect x="396" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 135ms both;" />
+  <rect x="396" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 140ms both;" />
+  <rect x="412" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 115ms both;" />
+  <rect x="412" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 120ms both;" />
+  <rect x="412" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 125ms both;" />
+  <rect x="412" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 130ms both;" />
+  <rect x="412" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 135ms both;" />
+  <rect x="412" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 140ms both;" />
+  <rect x="412" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 145ms both;" />
+  <rect x="428" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 120ms both;" />
+  <rect x="428" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 125ms both;" />
+  <rect x="428" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 130ms both;" />
+  <rect x="428" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 135ms both;" />
+  <rect x="428" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 140ms both;" />
+  <rect x="428" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 145ms both;" />
+  <rect x="428" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 150ms both;" />
+  <rect x="444" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 125ms both;" />
+  <rect x="444" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 130ms both;" />
+  <rect x="444" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 135ms both;" />
+  <rect x="444" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 140ms both;" />
+  <rect x="444" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 145ms both;" />
+  <rect x="444" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 150ms both;" />
+  <rect x="444" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 155ms both;" />
+  <rect x="460" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 130ms both;" />
+  <rect x="460" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 135ms both;" />
+  <rect x="460" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 140ms both;" />
+  <rect x="460" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 145ms both;" />
+  <rect x="460" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 150ms both;" />
+  <rect x="460" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 155ms both;" />
+  <rect x="460" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 160ms both;" />
+  <rect x="476" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 135ms both;" />
+  <rect x="476" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 140ms both;" />
+  <rect x="476" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 145ms both;" />
+  <rect x="476" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 150ms both;" />
+  <rect x="476" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 155ms both;" />
+  <rect x="476" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 160ms both;" />
+  <rect x="476" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 165ms both;" />
+  <rect x="492" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 140ms both;" />
+  <rect x="492" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 145ms both;" />
+  <rect x="492" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 150ms both;" />
+  <rect x="492" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 155ms both;" />
+  <rect x="492" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 160ms both;" />
+  <rect x="492" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 165ms both;" />
+  <rect x="492" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 170ms both;" />
+  <rect x="508" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 145ms both;" />
+  <rect x="508" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 150ms both;" />
+  <rect x="508" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 155ms both;" />
+  <rect x="508" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 160ms both;" />
+  <rect x="508" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 165ms both;" />
+  <rect x="508" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 170ms both;" />
+  <rect x="508" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 175ms both;" />
+  <rect x="524" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 150ms both;" />
+  <rect x="524" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 155ms both;" />
+  <rect x="524" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 160ms both;" />
+  <rect x="524" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 165ms both;" />
+  <rect x="524" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 170ms both;" />
+  <rect x="524" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 175ms both;" />
+  <rect x="524" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 180ms both;" />
+  <rect x="540" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 155ms both;" />
+  <rect x="540" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 160ms both;" />
+  <rect x="540" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 165ms both;" />
+  <rect x="540" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 170ms both;" />
+  <rect x="540" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 175ms both;" />
+  <rect x="540" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 180ms both;" />
+  <rect x="540" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 185ms both;" />
+  <rect x="556" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 160ms both;" />
+  <rect x="556" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 165ms both;" />
+  <rect x="556" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 170ms both;" />
+  <rect x="556" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 175ms both;" />
+  <rect x="556" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 180ms both;" />
+  <rect x="556" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 185ms both;" />
+  <rect x="556" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 190ms both;" />
+  <rect x="572" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 165ms both;" />
+  <rect x="572" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 170ms both;" />
+  <rect x="572" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 175ms both;" />
+  <rect x="572" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 180ms both;" />
+  <rect x="572" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 185ms both;" />
+  <rect x="572" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 190ms both;" />
+  <rect x="572" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 195ms both;" />
+  <rect x="588" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 170ms both;" />
+  <rect x="588" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 175ms both;" />
+  <rect x="588" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 180ms both;" />
+  <rect x="588" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 185ms both;" />
+  <rect x="588" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 190ms both;" />
+  <rect x="588" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 195ms both;" />
+  <rect x="588" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 200ms both;" />
+  <rect x="604" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 175ms both;" />
+  <rect x="604" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 180ms both;" />
+  <rect x="604" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 185ms both;" />
+  <rect x="604" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 190ms both;" />
+  <rect x="604" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 195ms both;" />
+  <rect x="604" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 200ms both;" />
+  <rect x="604" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 205ms both;" />
+  <rect x="620" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 180ms both;" />
+  <rect x="620" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 185ms both;" />
+  <rect x="620" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 190ms both;" />
+  <rect x="620" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 195ms both;" />
+  <rect x="620" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 200ms both;" />
+  <rect x="620" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 205ms both;" />
+  <rect x="620" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 210ms both;" />
+  <rect x="636" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 185ms both;" />
+  <rect x="636" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 190ms both;" />
+  <rect x="636" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 195ms both;" />
+  <rect x="636" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 200ms both;" />
+  <rect x="636" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 205ms both;" />
+  <rect x="636" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 210ms both;" />
+  <rect x="636" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 215ms both;" />
+  <rect x="652" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 190ms both;" />
+  <rect x="652" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 195ms both;" />
+  <rect x="652" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 200ms both;" />
+  <rect x="652" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#39d353"
+        style="animation: cellReveal 600ms ease-out 205ms both;" />
+  <rect x="652" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 210ms both;" />
+  <rect x="652" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 215ms both;" />
+  <rect x="652" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 220ms both;" />
+  <rect x="668" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 195ms both;" />
+  <rect x="668" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 200ms both;" />
+  <rect x="668" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 205ms both;" />
+  <rect x="668" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 210ms both;" />
+  <rect x="668" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 215ms both;" />
+  <rect x="668" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 220ms both;" />
+  <rect x="668" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 225ms both;" />
+  <rect x="684" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 200ms both;" />
+  <rect x="684" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 205ms both;" />
+  <rect x="684" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 210ms both;" />
+  <rect x="684" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 215ms both;" />
+  <rect x="684" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 220ms both;" />
+  <rect x="684" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 225ms both;" />
+  <rect x="684" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 230ms both;" />
+  <rect x="700" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 205ms both;" />
+  <rect x="700" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 210ms both;" />
+  <rect x="700" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#006d32"
+        style="animation: cellReveal 600ms ease-out 215ms both;" />
+  <rect x="700" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 220ms both;" />
+  <rect x="700" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 225ms both;" />
+  <rect x="700" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 230ms both;" />
+  <rect x="700" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 235ms both;" />
+  <rect x="716" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 210ms both;" />
+  <rect x="716" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 215ms both;" />
+  <rect x="716" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 220ms both;" />
+  <rect x="716" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 225ms both;" />
+  <rect x="716" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 230ms both;" />
+  <rect x="716" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 235ms both;" />
+  <rect x="716" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 240ms both;" />
+  <rect x="732" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 215ms both;" />
+  <rect x="732" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 220ms both;" />
+  <rect x="732" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 225ms both;" />
+  <rect x="732" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 230ms both;" />
+  <rect x="732" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 235ms both;" />
+  <rect x="732" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 240ms both;" />
+  <rect x="732" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 245ms both;" />
+  <rect x="748" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 220ms both;" />
+  <rect x="748" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 225ms both;" />
+  <rect x="748" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 230ms both;" />
+  <rect x="748" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 235ms both;" />
+  <rect x="748" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 240ms both;" />
+  <rect x="748" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 245ms both;" />
+  <rect x="748" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 250ms both;" />
+  <rect x="764" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 225ms both;" />
+  <rect x="764" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 230ms both;" />
+  <rect x="764" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 235ms both;" />
+  <rect x="764" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 240ms both;" />
+  <rect x="764" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 245ms both;" />
+  <rect x="764" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 250ms both;" />
+  <rect x="764" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 255ms both;" />
+  <rect x="780" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 230ms both;" />
+  <rect x="780" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 235ms both;" />
+  <rect x="780" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 240ms both;" />
+  <rect x="780" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 245ms both;" />
+  <rect x="780" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 250ms both;" />
+  <rect x="780" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 255ms both;" />
+  <rect x="780" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 260ms both;" />
+  <rect x="796" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 235ms both;" />
+  <rect x="796" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 240ms both;" />
+  <rect x="796" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 245ms both;" />
+  <rect x="796" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 250ms both;" />
+  <rect x="796" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 255ms both;" />
+  <rect x="796" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 260ms both;" />
+  <rect x="796" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 265ms both;" />
+  <rect x="812" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 240ms both;" />
+  <rect x="812" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 245ms both;" />
+  <rect x="812" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 250ms both;" />
+  <rect x="812" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 255ms both;" />
+  <rect x="812" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#39d353"
+        style="animation: cellReveal 600ms ease-out 260ms both;" />
+  <rect x="812" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 265ms both;" />
+  <rect x="812" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 270ms both;" />
+  <rect x="828" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 245ms both;" />
+  <rect x="828" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 250ms both;" />
+  <rect x="828" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 255ms both;" />
+  <rect x="828" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 260ms both;" />
+  <rect x="828" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 265ms both;" />
+  <rect x="828" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 270ms both;" />
+  <rect x="828" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 275ms both;" />
+  <rect x="844" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 250ms both;" />
+  <rect x="844" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 255ms both;" />
+  <rect x="844" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 260ms both;" />
+  <rect x="844" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 265ms both;" />
+  <rect x="844" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 270ms both;" />
+  <rect x="844" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 275ms both;" />
+  <rect x="844" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 280ms both;" />
+  <rect x="860" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 255ms both;" />
+  <rect x="860" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 260ms both;" />
+  <rect x="860" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 265ms both;" />
+  <rect x="860" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 270ms both;" />
+  <rect x="860" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 275ms both;" />
+  <rect x="860" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 280ms both;" />
+  <rect x="860" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 285ms both;" />
+  <rect x="876" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 260ms both;" />
+  <rect x="876" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 265ms both;" />
+  <rect x="876" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 270ms both;" />
+  <rect x="876" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 275ms both;" />
+  <rect x="876" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 280ms both;" />
+  <rect x="876" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 285ms both;" />
+  <rect x="876" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 290ms both;" />
+  <rect x="892" y="32"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 265ms both;" />
+  <rect x="892" y="48"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 270ms both;" />
+  <rect x="892" y="64"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#006d32"
+        style="animation: cellReveal 600ms ease-out 275ms both;" />
+  <rect x="892" y="80"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 280ms both;" />
+  <rect x="892" y="96"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 285ms both;" />
+  <rect x="892" y="112"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 290ms both;" />
+  <rect x="892" y="128"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: cellReveal 600ms ease-out 295ms both;" />
+  <text x="42" y="152"
+        font-family="'Courier New', Courier, monospace" font-size="11"
+        fill="#8b949e"
+        style="animation: fadeIn 500ms ease-out 270ms both;">
+    Less
+  </text>
+  <rect x="88" y="141"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#161b22"
+        style="animation: fadeIn 500ms ease-out 270ms both;" />
+  <rect x="105" y="141"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#0e4429"
+        style="animation: fadeIn 500ms ease-out 320ms both;" />
+  <rect x="122" y="141"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#006d32"
+        style="animation: fadeIn 500ms ease-out 370ms both;" />
+  <rect x="139" y="141"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#26a641"
+        style="animation: fadeIn 500ms ease-out 420ms both;" />
+  <rect x="156" y="141"
+        width="13" height="13"
+        rx="3" ry="3"
+        fill="#39d353"
+        style="animation: fadeIn 500ms ease-out 470ms both;" />
+  <text x="173" y="152"
+        font-family="'Courier New', Courier, monospace" font-size="11"
+        fill="#8b949e"
+        style="animation: fadeIn 500ms ease-out 520ms both;">
+    More
+  </text>
+  <text x="42" y="176"
+        font-family="'Courier New', Courier, monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeIn 500ms ease-out 470ms both;">
+    7 contributions in the last year
+  </text>
+  <text x="42" y="194"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e"
+        style="animation: fadeIn 500ms ease-out 570ms both;">
+    Current streak: 1d  |  Longest streak: 1d
+  </text>
+</svg>

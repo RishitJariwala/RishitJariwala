@@ -100,6 +100,9 @@ def generate_readme(
     3. Spacing
     4. ASCII portrait + Info card side by side
     5. Footer
+
+    Note: Uses <font color=""> instead of inline style since GitHub
+    strips style attributes from HTML in READMEs.
     """
     if prompts is None:
         prompts = {}
@@ -107,10 +110,15 @@ def generate_readme(
     sections: list[str] = []
     sections.append(build_terminal_header(username))
 
+    prompt_green = '<font color="#56d364">'
+    prompt_blue = '<font color="#79c0ff">'
+    prompt_red = '<font color="#ff6b6b">'
+    close_font = '</font>'
+
     # Contribution heatmap section
     contrib_prompt = prompts.get("contributions", "./contributions.sh")
     sections.append(
-        f'  <h3><code>{username}@github ~ $ <span style="color:#56d364">{contrib_prompt}</span></code></h3>\n'
+        f'  <h3><code>{username}@github ~ $ {prompt_green}{contrib_prompt}{close_font}</code></h3>\n'
     )
     sections.append(
         f'  <img src="./{heatmap_path}" width="{heatmap_width}" />\n'
@@ -120,7 +128,7 @@ def generate_readme(
     # ASCII portrait + Info card side by side
     portrait_prompt = prompts.get("portrait", "whoami")
     sections.append(
-        f'  <h3><code>{username}@github ~ $ <span style="color:#79c0ff">{portrait_prompt}</span></code></h3>\n'
+        f'  <h3><code>{username}@github ~ $ {prompt_blue}{portrait_prompt}{close_font}</code></h3>\n'
     )
     sections.append(f'  {spacing}')
     sections.append(
@@ -138,7 +146,7 @@ def generate_readme(
     if stack_data:
         sections.append(f'  {spacing}')
         sections.append(
-            f'  <h3><code>{username}@github ~ $ <span style="color:#ff6b6b">{stack_prompt}</span></code></h3>\n'
+            f'  <h3><code>{username}@github ~ $ {prompt_red}{stack_prompt}{close_font}</code></h3>\n'
         )
         sections.append(f'  {spacing}')
         sections.append('  <table>\n')

@@ -18,7 +18,7 @@ from typing import Any, Optional
 
 import yaml
 
-from scripts.types import ConfigDict
+from scripts.type_defs import ConfigDict
 
 
 def setup_logging(level: int = logging.INFO) -> None:

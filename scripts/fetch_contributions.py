@@ -89,15 +89,78 @@ def fetch_contributions_html(username: str, retries: int = MAX_RETRIES) -> str:
     raise ConnectionError(f"Failed to fetch contributions after {retries} retries: {last_error}")
 
 
+def parse_total_from_html(soup: BeautifulSoup) -> int:
+    """Extract total contribution count from the h2 element."""
+    h2 = soup.find("h2", id="js-contribution-activity-description")
+    if h2:
+        text = h2.get_text(strip=True)
+        parts = text.split()
+        if parts and parts[0].isdigit():
+            return int(parts[0])
+    return 0
+
+
+def estimate_day_counts(
+    days: list[dict[str, Any]],
+    total: int,
+) -> list[dict[str, Any]]:
+    """Estimate per-day contribution counts from data-level and total.
+
+    GitHub's HTML now only exposes data-level (0-4), not exact counts.
+    This function distributes the total across days proportional to level.
+    """
+    if not days or total == 0:
+        for d in days:
+            d["count"] = 0
+        return days
+
+    # Group days by level
+    level_groups: dict[int, list[dict[str, Any]]] = {}
+    for d in days:
+        level = d.get("level", 0)
+        if level not in level_groups:
+            level_groups[level] = []
+        level_groups[level].append(d)
+
+    # Weight by level (level 1 = 1, level 2 = 3, level 3 = 6, level 4 = 10)
+    level_weights = {0: 0, 1: 1, 2: 3, 3: 6, 4: 10}
+    total_weight = sum(
+        level_weights.get(level, 0) * len(days_list)
+        for level, days_list in level_groups.items()
+    )
+
+    if total_weight == 0:
+        return days
+
+    # Distribute total proportionally
+    for d in days:
+        level = d.get("level", 0)
+        weight = level_weights.get(level, 0)
+        if weight > 0 and total_weight > 0:
+            d["count"] = max(1, round(total * weight / total_weight))
+        else:
+            d["count"] = 0
+
+    # Adjust to match exact total
+    assigned = sum(d["count"] for d in days)
+    diff = total - assigned
+    if diff != 0 and len(days) > 0:
+        # Add/subtract difference from highest-level days
+        sorted_by_level = sorted(days, key=lambda d: d["level"], reverse=True)
+        for i in range(abs(diff)):
+            idx = i % len(sorted_by_level)
+            sorted_by_level[idx]["count"] = max(0, sorted_by_level[idx]["count"] + (1 if diff > 0 else -1))
+
+    return days
+
+
 def parse_contributions(html: str) -> tuple[list[dict[str, Any]], list[list[Optional[dict[str, Any]]]]]:
     """
     Parse the contribution HTML into structured data.
 
-    GitHub's contribution graph HTML consists of:
-    - <tbody> with <tr> rows (weeks)
-    - Each <tr> contains <td> cells (days)
-    - Each <td> has a data-date and data-level attribute
-    - A <tooltip> sibling or aria-label contains the count
+    GitHub's current contribution graph HTML uses a <table> with <td> elements
+    containing data-date and data-level attributes. Exact counts are not
+    included per-cell; only the total is available from the <h2> element.
 
     Returns (days, weeks) where weeks is a 53x7 grid.
     """
@@ -105,11 +168,14 @@ def parse_contributions(html: str) -> tuple[list[dict[str, Any]], list[list[Opti
     days: list[dict[str, Any]] = []
     weeks: list[list[Optional[dict[str, Any]]]] = []
 
+    total = parse_total_from_html(soup)
+
     # Find the contribution table
     table = soup.find("table")
     if table is None:
         # Try the newer SVG-based layout
         days = parse_contribution_svg(soup)
+        days = estimate_day_counts(days, total)
         return days, []
 
     tbody = table.find("tbody")
@@ -123,21 +189,11 @@ def parse_contributions(html: str) -> tuple[list[dict[str, Any]], list[list[Opti
             level_str = td.get("data-level", "0")
             level = int(level_str) if level_str.isdigit() else 0
 
-            # Extract count from tooltip or aria-label
-            count = 0
-            tooltip = td.find("tooltip")
-            if tooltip and tooltip.get("aria-label"):
-                label = tooltip["aria-label"]
-                # Format: "X contributions on YYYY-MM-DD" or "No contributions on YYYY-MM-DD"
-                parts = label.split()
-                if parts and parts[0].isdigit():
-                    count = int(parts[0])
-
-            day_data = {
+            day_data: dict[str, Any] = {
                 "date": date_str,
-                "count": count,
+                "count": 0,
                 "level": level,
-                "weekday": 0,  # will be computed
+                "weekday": 0,
             }
             week.append(day_data)
             if date_str:
@@ -146,6 +202,7 @@ def parse_contributions(html: str) -> tuple[list[dict[str, Any]], list[list[Opti
         if week:
             weeks.append(week)
 
+    days = estimate_day_counts(days, total)
     return days, weeks
 
 
@@ -344,7 +401,7 @@ def main(argv: Optional[list[str]] = None) -> int:
 
     result = {
         "username": username,
-        "fetched_at": datetime.utcnow().isoformat() + "Z",
+        "fetched_at": datetime.now(datetime.UTC).isoformat().replace("+00:00", "Z"),
         "days": days,
         "weeks": week_grid,
         **stats,
