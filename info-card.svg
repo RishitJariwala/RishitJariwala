@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="752"
-     viewBox="0 0 400 752"
-     style="background-color:#0d1117; border: 1px solid #30363d; border-radius: 8px;">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="765"
+     viewBox="0 0 400 765"
+     style="background-color:#0d1117;">
+  <rect x="1" y="1" width="398" height="763" rx="8" ry="8" fill="none" stroke="#30363d" stroke-width="1" />
   <style>
     @keyframes fadeSlideIn {
       from {
@@ -464,7 +465,7 @@
         style="animation: fadeSlideIn 400ms ease-out 3450ms both;">
     Profile README Generator
   </text>
-  <line x1="16" y1="753" x2="384" y2="753"
+  <line x1="16" y1="757" x2="384" y2="757"
         stroke="#30363d" stroke-width="1"
         style="animation: fadeSlideIn 400ms ease-out 3500ms both;" />
 </svg>

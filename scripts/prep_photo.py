@@ -210,7 +210,15 @@ def process_photo(
     img = resize_image(img, target_width)
     logger.info(f"Resized to: {img.shape[1]}x{img.shape[0]}")
 
-    img = apply_clahe(img)
+    # Auto-levels: stretch histogram to full range
+    gray_pre = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+    low = np.percentile(gray_pre, 2)
+    high = np.percentile(gray_pre, 98)
+    if high > low:
+        gray_stretched = np.clip((gray_pre.astype(float) - low) * 255.0 / (high - low), 0, 255).astype(np.uint8)
+        img = cv2.cvtColor(gray_stretched, cv2.COLOR_GRAY2RGB)
+
+    img = apply_clahe(img, clip_limit=3.0, grid_size=(4, 4))
     logger.info("CLAHE applied")
 
     img = adjust_brightness_contrast(img, brightness=brightness, contrast=contrast)

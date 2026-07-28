@@ -155,12 +155,17 @@ def generate_info_card_svg(
     max_label_width = max((len(label) for _, label, _ in rows), default=0) * char_width
     content_height = len(rows) * line_h
     svg_w = max(400, max_label_width + 200)
-    svg_h = padding_y * 2 + content_height + line_h + 20  # + title bar
+    # Height: top padding + title + divider + content rows + bottom divider + bottom padding
+    svg_h = padding_y + 13 + 8 + 12 + content_height + line_h + padding_y
 
     lines: list[str] = []
     lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{svg_w:.0f}" height="{svg_h:.0f}"')
     lines.append(f'     viewBox="0 0 {svg_w:.0f} {svg_h:.0f}"')
-    lines.append(f'     style="background-color:{bg_color}; border: 1px solid {border_color}; border-radius: 8px;">')
+    lines.append(f'     style="background-color:{bg_color};">')
+
+    # Border rect (standard SVG, no CSS border property)
+    lines.append(f'  <rect x="1" y="1" width="{svg_w - 2}" height="{svg_h - 2}"'
+                 f' rx="8" ry="8" fill="none" stroke="{border_color}" stroke-width="1" />')
 
     # CSS for animations
     lines.append("  <style>")
@@ -229,8 +234,7 @@ def generate_info_card_svg(
             lines.append(f'  </text>')
 
     # Bottom border
-    bottom_y = rows[-1][2] if any(r[2] for r in rows) else ""
-    bottom_line_y = row_y + line_h
+    bottom_line_y = row_y + line_h + 4
     lines.append(f'  <line x1="{padding_x}" y1="{bottom_line_y}" x2="{svg_w - padding_x}" y2="{bottom_line_y}"')
     lines.append(f'        stroke="{border_color}" stroke-width="1"')
     lines.append(f'        style="animation: fadeSlideIn {fade_duration_ms}ms ease-out {100 + len(rows) * row_delay_ms}ms both;" />')

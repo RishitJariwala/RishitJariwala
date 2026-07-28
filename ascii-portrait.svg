@@ -1,7 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="394" height="306"
-     viewBox="0 0 394 306"
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="336"
+     viewBox="0 0 400 336"
      style="background-color:#0d1117;">
   <style>
+    @keyframes reveal {
+      from { transform: scaleX(1); }
+      to   { transform: scaleX(0); }
+    }
     @keyframes blink {
       0%, 49% { opacity: 1; }
       50%, 100% { opacity: 0; }
@@ -10,769 +14,394 @@
       from { opacity: 0; }
       to   { opacity: 1; }
     }
+    @keyframes cursor0 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(202px); }
+    }
+    @keyframes cursor1 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(226px); }
+    }
+    @keyframes cursor2 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(240px); }
+    }
+    @keyframes cursor3 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(245px); }
+    }
+    @keyframes cursor4 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(250px); }
+    }
+    @keyframes cursor5 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(250px); }
+    }
+    @keyframes cursor6 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(254px); }
+    }
+    @keyframes cursor7 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(250px); }
+    }
+    @keyframes cursor8 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(250px); }
+    }
+    @keyframes cursor9 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(254px); }
+    }
+    @keyframes cursor10 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(254px); }
+    }
+    @keyframes cursor11 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(254px); }
+    }
+    @keyframes cursor12 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(254px); }
+    }
+    @keyframes cursor13 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(250px); }
+    }
+    @keyframes cursor14 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(240px); }
+    }
+    @keyframes cursor15 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(240px); }
+    }
+    @keyframes cursor16 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(235px); }
+    }
+    @keyframes cursor17 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(235px); }
+    }
+    @keyframes cursor18 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(235px); }
+    }
+    @keyframes cursor19 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(254px); }
+    }
+    @keyframes cursor20 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(259px); }
+    }
+    @keyframes cursor21 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(283px); }
+    }
+    @keyframes cursor22 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(307px); }
+    }
+    @keyframes cursor23 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(341px); }
+    }
+    @keyframes cursor24 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(360px); }
+    }
+    @keyframes cursor25 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(365px); }
+    }
+    @keyframes cursor26 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(370px); }
+    }
+    @keyframes cursor27 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(370px); }
+    }
+    @keyframes cursor28 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(370px); }
+    }
+    @keyframes cursor29 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(374px); }
+    }
+    @keyframes cursor30 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(374px); }
+    }
+    @keyframes cursor31 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(379px); }
+    }
+    @keyframes cursor32 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(379px); }
+    }
+    @keyframes cursor33 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(384px); }
+    }
+    @keyframes cursor34 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(384px); }
+    }
+    @keyframes cursor35 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(384px); }
+    }
+    @keyframes cursor36 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(384px); }
+    }
+    @keyframes cursor37 {
+      from { transform: translateX(0); }
+      to   { transform: translateX(384px); }
+    }
   </style>
   <defs>
-    <clipPath id="row-clip-0">
-      <rect x="5" y="5.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="0ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-1">
-      <rect x="5" y="13.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="80ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-2">
-      <rect x="5" y="21.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="160ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-3">
-      <rect x="5" y="29.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="240ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-4">
-      <rect x="5" y="37.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="320ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-5">
-      <rect x="5" y="45.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="400ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-6">
-      <rect x="5" y="53.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="480ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-7">
-      <rect x="5" y="61.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="560ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-8">
-      <rect x="5" y="69.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="640ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-9">
-      <rect x="5" y="77.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="720ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-10">
-      <rect x="5" y="85.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="800ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-11">
-      <rect x="5" y="93.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="880ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-12">
-      <rect x="5" y="101.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="960ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-13">
-      <rect x="5" y="109.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1040ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-14">
-      <rect x="5" y="117.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1120ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-15">
-      <rect x="5" y="125.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1200ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-16">
-      <rect x="5" y="133.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1280ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-17">
-      <rect x="5" y="141.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1360ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-18">
-      <rect x="5" y="149.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1440ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-19">
-      <rect x="5" y="157.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1520ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-20">
-      <rect x="5" y="165.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1600ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-21">
-      <rect x="5" y="173.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1680ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-22">
-      <rect x="5" y="181.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1760ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-23">
-      <rect x="5" y="189.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1840ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-24">
-      <rect x="5" y="197.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="1920ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-25">
-      <rect x="5" y="205.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="2000ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-26">
-      <rect x="5" y="213.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="2080ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-27">
-      <rect x="5" y="221.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="2160ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-28">
-      <rect x="5" y="229.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="2240ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-29">
-      <rect x="5" y="237.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="2320ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-30">
-      <rect x="5" y="245.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="2400ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-31">
-      <rect x="5" y="253.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="2480ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-32">
-      <rect x="5" y="261.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="2560ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-33">
-      <rect x="5" y="269.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="2640ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-34">
-      <rect x="5" y="277.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="2720ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
-    <clipPath id="row-clip-35">
-      <rect x="5" y="285.0"
-            width="0" height="8.0">
-        <animate attributeName="width"
-                 from="0" to="384.0"
-                 dur="2400ms" begin="2800ms"
-                 fill="freeze" />
-      </rect>
-    </clipPath>
+    <rect id="cursor" width="3" height="6" fill="#c9d1d9" rx="1" />
   </defs>
-  <text x="5" y="11.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-0)">
-                                                                                    
-  </text>
-  <rect x="390.0" y="6.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 2400ms;">
-  </rect>
-  <text x="5" y="19.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-1)">
-                                                                                    
-  </text>
-  <rect x="390.0" y="14.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 2480ms;">
-  </rect>
-  <text x="5" y="27.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-2)">
-                                   :=++*****+--:`                                   
-  </text>
-  <rect x="390.0" y="22.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 2560ms;">
-  </rect>
-  <text x="5" y="35.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-3)">
-                                :+ccs#sccs####s#sc*-.                               
-  </text>
-  <rect x="390.0" y="30.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 2640ms;">
-  </rect>
-  <text x="5" y="43.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-4)">
-                              :ccsscss##ss##%#######s+.                             
-  </text>
-  <rect x="390.0" y="38.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 2720ms;">
-  </rect>
-  <text x="5" y="51.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-5)">
-                            `*css##ss####s#s###%######c.                            
-  </text>
-  <rect x="390.0" y="46.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 2800ms;">
-  </rect>
-  <text x="5" y="59.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-6)">
-                           .*#sc#ccscc##s##scc#%#######*                            
-  </text>
-  <rect x="390.0" y="54.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 2880ms;">
-  </rect>
-  <text x="5" y="67.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-7)">
-                           `*#s#sccscs**cs##scccss#%####.                           
-  </text>
-  <rect x="390.0" y="62.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 2960ms;">
-  </rect>
-  <text x="5" y="75.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-8)">
-                           `cs##+--=-`:-.`::`:-+**c#%#%#.                           
-  </text>
-  <rect x="390.0" y="70.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3040ms;">
-  </rect>
-  <text x="5" y="83.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-9)">
-                            *sss-`..           .`-=*#%%s                            
-  </text>
-  <rect x="390.0" y="78.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3120ms;">
-  </rect>
-  <text x="5" y="91.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-10)">
-                            .csc:`-=====:  .-++****+c%#c:                           
-  </text>
-  <rect x="390.0" y="86.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3200ms;">
-  </rect>
-  <text x="5" y="99.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-11)">
-                            ``=+-=*c**cc+::+*++***+++++=*                           
-  </text>
-  <rect x="390.0" y="94.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3280ms;">
-  </rect>
-  <text x="5" y="107.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-12)">
-                             .`=-=+*===-`-.-*+:````--*c*:                           
-  </text>
-  <rect x="390.0" y="102.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3360ms;">
-  </rect>
-  <text x="5" y="115.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-13)">
-                             ..-`:`.    ..  ==    .:-c*=                            
-  </text>
-  <rect x="390.0" y="110.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3440ms;">
-  </rect>
-  <text x="5" y="123.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-14)">
-                              .`+:``````.:`-*=+`..:=**:                             
-  </text>
-  <rect x="390.0" y="118.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3520ms;">
-  </rect>
-  <text x="5" y="131.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-15)">
-                                +*-``-*++**+cc*+=`=*s`                              
-  </text>
-  <rect x="390.0" y="126.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3600ms;">
-  </rect>
-  <text x="5" y="139.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-16)">
-                                .*c*=-``::`:-=---=c#*                               
-  </text>
-  <rect x="390.0" y="134.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3680ms;">
-  </rect>
-  <text x="5" y="147.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-17)">
-                                  +#s+-:-==+=-:=c#%#:                               
-  </text>
-  <rect x="390.0" y="142.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3760ms;">
-  </rect>
-  <text x="5" y="155.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-18)">
-                                   :c###c*+=+cs#%%s+:..                             
-  </text>
-  <rect x="390.0" y="150.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3840ms;">
-  </rect>
-  <text x="5" y="163.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-19)">
-                                    :-*s#%####%%#c-..:sc:                           
-  </text>
-  <rect x="390.0" y="158.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 3920ms;">
-  </rect>
-  <text x="5" y="171.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-20)">
-                                   `-::-=+*cccc=:  `-s###c-                         
-  </text>
-  <rect x="390.0" y="166.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4000ms;">
-  </rect>
-  <text x="5" y="179.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-21)">
-                                   `*:`::::-:`    `=s#######c*=:`                   
-  </text>
-  <rect x="390.0" y="174.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4080ms;">
-  </rect>
-  <text x="5" y="187.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-22)">
-                            .:=*`.``c=::::`...  ``*ss######ssss###sc+=:`.           
-  </text>
-  <rect x="390.0" y="182.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4160ms;">
-  </rect>
-  <text x="5" y="195.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-23)">
-                       `:=*s###s :=  -+::...    :c#########ssssss########sc*=`      
-  </text>
-  <rect x="390.0" y="190.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4240ms;">
-  </rect>
-  <text x="5" y="203.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-24)">
-                  `+*cs#########`.    .+-      .c#####sssssssssssss#ss#s######c`    
-  </text>
-  <rect x="390.0" y="198.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4320ms;">
-  </rect>
-  <text x="5" y="211.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-25)">
-                 =#############s:       :...  .c###sss#s##ssssssssssssss########.   
-  </text>
-  <rect x="390.0" y="206.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4400ms;">
-  </rect>
-  <text x="5" y="219.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-26)">
-                `##ss##########*             .c####ssss#sssssssssssssss#######%%*   
-  </text>
-  <rect x="390.0" y="214.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4480ms;">
-  </rect>
-  <text x="5" y="227.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-27)">
-                =#sssssss#####s=             c####sss##sssssssssssssss###########   
-  </text>
-  <rect x="390.0" y="222.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4560ms;">
-  </rect>
-  <text x="5" y="235.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-28)">
-                *#sssssss#####c:            *##sssss#sssssssssssssssss###########`  
-  </text>
-  <rect x="390.0" y="230.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4640ms;">
-  </rect>
-  <text x="5" y="243.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-29)">
-               `c#sssssssss###c`           +sssssss#ssssssssssssss#sss#ss########*  
-  </text>
-  <rect x="390.0" y="238.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4720ms;">
-  </rect>
-  <text x="5" y="251.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-30)">
-               +c#ssssssssss#sc.          =ssssssssssssssssssssss##ssss###########+ 
-  </text>
-  <rect x="390.0" y="246.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4800ms;">
-  </rect>
-  <text x="5" y="259.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-31)">
-               cssscssssss###sc.         -ssssssssccccssssssssss#%ssssssss#########:
-  </text>
-  <rect x="390.0" y="254.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4880ms;">
-  </rect>
-  <text x="5" y="267.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-32)">
-              `csssccssssss###s`        `ssssssssccccsssssss#ss#%#sssssssss######%%=
-  </text>
-  <rect x="390.0" y="262.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 4960ms;">
-  </rect>
-  <text x="5" y="275.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-33)">
-              =sss#ccsssss####s-        csssssssccccssssssssss#%%scccssssss#########
-  </text>
-  <rect x="390.0" y="270.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 5040ms;">
-  </rect>
-  <text x="5" y="283.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-34)">
-              *ss##sccsssss####+       +s#sss#ssssssssssssssss#%%sssssssssss#####%%#
-  </text>
-  <rect x="390.0" y="278.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end 2;
-                      animation-delay: 5120ms;">
-  </rect>
-  <text x="5" y="291.8"
-        font-family="'Courier New', 'Courier', monospace" font-size="8"
-        fill="#c9d1d9"
-        clip-path="url(#row-clip-35)">
-             `sss###ccsssss####c.     `s##ss#ssscssss##sssss##%%%sssssssssss########
-  </text>
-  <rect x="390.0" y="286.0"
-        width="3.2" height="6.0"
-        fill="#c9d1d9"
-        style="animation: blink 500ms step-end infinite;
-                      animation-delay: 5200ms;">
-  </rect>
-  <text x="5" y="305.0"
-        font-family="'Courier New', 'Courier', monospace" font-size="6.4"
-        fill="#c9d1d9"
-        style="animation: fadeIn 500ms ease-out 5280ms both;">
+  <text x="8" y="15" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                                .::----::.</text>
+  <rect x="8" y="8" width="202" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1260ms ease-out 0ms forwards;" />
+  <g style="animation: cursor0 1260ms ease-out 0ms forwards;">
+    <use href="#cursor" x="8" y="9"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 1260ms;" />
+  </g>
+  <text x="8" y="23" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                             .:=+c*=+*sssscs*=:</text>
+  <rect x="8" y="16" width="226" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1410ms ease-out 50ms forwards;" />
+  <g style="animation: cursor1 1410ms ease-out 50ms forwards;">
+    <use href="#cursor" x="8" y="17"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 1460ms;" />
+  </g>
+  <text x="8" y="31" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                           `-+cc*#%sc##%%####csc=.</text>
+  <rect x="8" y="24" width="240" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1500ms ease-out 100ms forwards;" />
+  <g style="animation: cursor2 1500ms ease-out 100ms forwards;">
+    <use href="#cursor" x="8" y="25"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 1600ms;" />
+  </g>
+  <text x="8" y="39" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                         .-c*#*+c*#s*+sc%#s#ss##s*`</text>
+  <rect x="8" y="32" width="245" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1530ms ease-out 150ms forwards;" />
+  <g style="animation: cursor3 1530ms ease-out 150ms forwards;">
+    <use href="#cursor" x="8" y="33"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 1680ms;" />
+  </g>
+  <text x="8" y="47" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                        :cc*c*s#cs#%%%%s###%##s##sc`</text>
+  <rect x="8" y="40" width="250" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1560ms ease-out 200ms forwards;" />
+  <g style="animation: cursor4 1560ms ease-out 200ms forwards;">
+    <use href="#cursor" x="8" y="41"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 1760ms;" />
+  </g>
+  <text x="8" y="55" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                       .+#c*#*+*+*s#*csc++s##%%##s#*</text>
+  <rect x="8" y="48" width="250" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1560ms ease-out 250ms forwards;" />
+  <g style="animation: cursor5 1560ms ease-out 250ms forwards;">
+    <use href="#cursor" x="8" y="49"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 1810ms;" />
+  </g>
+  <text x="8" y="63" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                       .+sssc++c*c+=+s##c**+cc#%####.</text>
+  <rect x="8" y="56" width="254" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1590ms ease-out 300ms forwards;" />
+  <g style="animation: cursor6 1590ms ease-out 300ms forwards;">
+    <use href="#cursor" x="8" y="57"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 1890ms;" />
+  </g>
+  <text x="8" y="71" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                       `*s##-````.``  ....`-==+s%#%s</text>
+  <rect x="8" y="64" width="250" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1560ms ease-out 350ms forwards;" />
+  <g style="animation: cursor7 1560ms ease-out 350ms forwards;">
+    <use href="#cursor" x="8" y="65"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 1910ms;" />
+  </g>
+  <text x="8" y="79" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                        +sss:.              .:-+%%%s</text>
+  <rect x="8" y="72" width="250" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1560ms ease-out 400ms forwards;" />
+  <g style="animation: cursor8 1560ms ease-out 400ms forwards;">
+    <use href="#cursor" x="8" y="73"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 1960ms;" />
+  </g>
+  <text x="8" y="87" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                        `cs*. .`````.   `-=++++=c%#c.</text>
+  <rect x="8" y="80" width="254" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1590ms ease-out 450ms forwards;" />
+  <g style="animation: cursor9 1590ms ease-out 450ms forwards;">
+    <use href="#cursor" x="8" y="81"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2040ms;" />
+  </g>
+  <text x="8" y="95" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                        .:++.-+*++**-..-+++++***++--*</text>
+  <rect x="8" y="88" width="254" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1590ms ease-out 500ms forwards;" />
+  <g style="animation: cursor10 1590ms ease-out 500ms forwards;">
+    <use href="#cursor" x="8" y="89"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2090ms;" />
+  </g>
+  <text x="8" y="103" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                          .-===****+:-`=*+=+==:--**=-</text>
+  <rect x="8" y="96" width="254" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1590ms ease-out 550ms forwards;" />
+  <g style="animation: cursor11 1590ms ease-out 550ms forwards;">
+    <use href="#cursor" x="8" y="97"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2140ms;" />
+  </g>
+  <text x="8" y="111" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                           :.`::     . .+=     `:**+.</text>
+  <rect x="8" y="104" width="254" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1590ms ease-out 600ms forwards;" />
+  <g style="animation: cursor12 1590ms ease-out 600ms forwards;">
+    <use href="#cursor" x="8" y="105"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2190ms;" />
+  </g>
+  <text x="8" y="119" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                           ::...    .   -:`   .:=s=`</text>
+  <rect x="8" y="112" width="250" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1560ms ease-out 650ms forwards;" />
+  <g style="animation: cursor13 1560ms ease-out 650ms forwards;">
+    <use href="#cursor" x="8" y="113"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2210ms;" />
+  </g>
+  <text x="8" y="127" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                           .+:..``:``+=*#c+`.`:=c=</text>
+  <rect x="8" y="120" width="240" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1500ms ease-out 700ms forwards;" />
+  <g style="animation: cursor14 1500ms ease-out 700ms forwards;">
+    <use href="#cursor" x="8" y="121"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2200ms;" />
+  </g>
+  <text x="8" y="135" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                            =*=:`+cc*+++ccss*`+cc.</text>
+  <rect x="8" y="128" width="240" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1500ms ease-out 750ms forwards;" />
+  <g style="animation: cursor15 1500ms ease-out 750ms forwards;">
+    <use href="#cursor" x="8" y="129"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2250ms;" />
+  </g>
+  <text x="8" y="143" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                             *c*=:. ````:-:`-+s#+</text>
+  <rect x="8" y="136" width="235" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1470ms ease-out 800ms forwards;" />
+  <g style="animation: cursor16 1470ms ease-out 800ms forwards;">
+    <use href="#cursor" x="8" y="137"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2270ms;" />
+  </g>
+  <text x="8" y="151" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                              +#s+=::==+=-:=c#%#`</text>
+  <rect x="8" y="144" width="235" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1470ms ease-out 850ms forwards;" />
+  <g style="animation: cursor17 1470ms ease-out 850ms forwards;">
+    <use href="#cursor" x="8" y="145"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2320ms;" />
+  </g>
+  <text x="8" y="159" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                               -s###c*=-+*c#%%c=`</text>
+  <rect x="8" y="152" width="235" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1470ms ease-out 900ms forwards;" />
+  <g style="animation: cursor18 1470ms ease-out 900ms forwards;">
+    <use href="#cursor" x="8" y="153"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2370ms;" />
+  </g>
+  <text x="8" y="167" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                                :+c#%%###%%%#*-   *+.</text>
+  <rect x="8" y="160" width="254" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1590ms ease-out 950ms forwards;" />
+  <g style="animation: cursor19 1590ms ease-out 950ms forwards;">
+    <use href="#cursor" x="8" y="161"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2540ms;" />
+  </g>
+  <text x="8" y="175" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                               .::-=+*csssc*-    *%%#=</text>
+  <rect x="8" y="168" width="259" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1620ms ease-out 1000ms forwards;" />
+  <g style="animation: cursor20 1620ms ease-out 1000ms forwards;">
+    <use href="#cursor" x="8" y="169"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2620ms;" />
+  </g>
+  <text x="8" y="183" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                               .+``:::---:`    .+s####c=:`.</text>
+  <rect x="8" y="176" width="283" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1770ms ease-out 1050ms forwards;" />
+  <g style="animation: cursor21 1770ms ease-out 1050ms forwards;">
+    <use href="#cursor" x="8" y="177"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 2820ms;" />
+  </g>
+  <text x="8" y="191" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                           `.  .c:`....       .+cssssssccc**+-:`</text>
+  <rect x="8" y="184" width="307" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 1920ms ease-out 1100ms forwards;" />
+  <g style="animation: cursor22 1920ms ease-out 1100ms forwards;">
+    <use href="#cursor" x="8" y="185"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 3020ms;" />
+  </g>
+  <text x="8" y="199" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                      .`-*c*  - -=. .        `*cccssss#ccc**cccsc*+=-`.</text>
+  <rect x="8" y="192" width="341" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2130ms ease-out 1150ms forwards;" />
+  <g style="animation: cursor23 2130ms ease-out 1150ms forwards;">
+    <use href="#cursor" x="8" y="193"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 3280ms;" />
+  </g>
+  <text x="8" y="207" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">                 .:-+css#ssc `.   -`        `*cccc*csc********cccccccccsc=.</text>
+  <rect x="8" y="200" width="360" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2250ms ease-out 1200ms forwards;" />
+  <g style="animation: cursor24 2250ms ease-out 1200ms forwards;">
+    <use href="#cursor" x="8" y="201"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 3450ms;" />
+  </g>
+  <text x="8" y="215" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">              -cccss###s##sc`      :`      .*sccc***cc***+******++*+cs####s:</text>
+  <rect x="8" y="208" width="365" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2280ms ease-out 1250ms forwards;" />
+  <g style="animation: cursor25 2280ms ease-out 1250ms forwards;">
+    <use href="#cursor" x="8" y="209"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 3530ms;" />
+  </g>
+  <text x="8" y="223" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">             =#sssssssss###*.             .+ccc*****cc***++++++++*+*sssss##s.</text>
+  <rect x="8" y="216" width="370" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2310ms ease-out 1300ms forwards;" />
+  <g style="animation: cursor26 2310ms ease-out 1300ms forwards;">
+    <use href="#cursor" x="8" y="217"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 3610ms;" />
+  </g>
+  <text x="8" y="231" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">            .ssccsssssss##s=              +csc*+++*c++*+++=======+*cssccs#%%+</text>
+  <rect x="8" y="224" width="370" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2310ms ease-out 1350ms forwards;" />
+  <g style="animation: cursor27 2310ms ease-out 1350ms forwards;">
+    <use href="#cursor" x="8" y="225"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 3660ms;" />
+  </g>
+  <text x="8" y="239" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">            :sc*cccsssss##c:             =cccc**+*c==++++++=++==+*ccccccs###s</text>
+  <rect x="8" y="232" width="370" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2310ms ease-out 1400ms forwards;" />
+  <g style="animation: cursor28 2310ms ease-out 1400ms forwards;">
+    <use href="#cursor" x="8" y="233"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 3710ms;" />
+  </g>
+  <text x="8" y="247" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">            -s**cccccsss#s*`            -ccc***+**+=+++++======*+ccccccccsss*.</text>
+  <rect x="8" y="240" width="374" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2340ms ease-out 1450ms forwards;" />
+  <g style="animation: cursor29 2340ms ease-out 1450ms forwards;">
+    <use href="#cursor" x="8" y="241"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 3790ms;" />
+  </g>
+  <text x="8" y="255" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">            =s**ccc*csss#s+.           :*c***++c+=====++++==++c+*cc*****ccssc:</text>
+  <rect x="8" y="248" width="374" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2340ms ease-out 1500ms forwards;" />
+  <g style="animation: cursor30 2340ms ease-out 1500ms forwards;">
+    <use href="#cursor" x="8" y="249"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 3840ms;" />
+  </g>
+  <text x="8" y="263" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">           `=s**cc**cccc#c+           .+c****=*+======+**++++cs+**ccccccccss#s.</text>
+  <rect x="8" y="256" width="379" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2370ms ease-out 1550ms forwards;" />
+  <g style="animation: cursor31 2370ms ease-out 1550ms forwards;">
+    <use href="#cursor" x="8" y="257"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 3920ms;" />
+  </g>
+  <text x="8" y="271" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">           -+s*+***++sss#c+           =*c*+++c==---==++***+cs%+*+**cccccccss##s</text>
+  <rect x="8" y="264" width="379" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2370ms ease-out 1600ms forwards;" />
+  <g style="animation: cursor32 2370ms ease-out 1600ms forwards;">
+    <use href="#cursor" x="8" y="265"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 3970ms;" />
+  </g>
+  <text x="8" y="279" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">           =*sc++**++ccs#c*.         -*c*+++c=----=*****c**s%#+++**cccccsss##%#:</text>
+  <rect x="8" y="272" width="384" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2400ms ease-out 1650ms forwards;" />
+  <g style="animation: cursor33 2400ms ease-out 1650ms forwards;">
+    <use href="#cursor" x="8" y="273"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 4050ms;" />
+  </g>
+  <text x="8" y="287" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">          .=csc=+***+ccs#s*.        :+cc+=+c+=====++**ccs*c#%c+=++*ccccsss###%%=</text>
+  <rect x="8" y="280" width="384" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2400ms ease-out 1700ms forwards;" />
+  <g style="animation: cursor34 2400ms ease-out 1700ms forwards;">
+    <use href="#cursor" x="8" y="281"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 4100ms;" />
+  </g>
+  <text x="8" y="295" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">          :*cs#==+*+**cs#ss`        =cc*++c====+++**ccss**#%%*=++*cccccssss#%%#%</text>
+  <rect x="8" y="288" width="384" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2400ms ease-out 1750ms forwards;" />
+  <g style="animation: cursor35 2400ms ease-out 1750ms forwards;">
+    <use href="#cursor" x="8" y="289"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 4150ms;" />
+  </g>
+  <text x="8" y="303" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">          =css#*=+*+**scsss-       -*sc*cs****++*cccccccc#%%%++***ccccsss####%%#</text>
+  <rect x="8" y="296" width="384" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2400ms ease-out 1800ms forwards;" />
+  <g style="animation: cursor36 2400ms ease-out 1800ms forwards;">
+    <use href="#cursor" x="8" y="297"
+         style="animation: blink 500ms step-end 2;                       animation-delay: 4200ms;" />
+  </g>
+  <text x="8" y="311" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" xml:space="preserve">         .*cs#%#==***ccs#sc+      .*sscc#**++**ccsssssss#%%%%c****cccccss###%%%#</text>
+  <rect x="8" y="304" width="384" height="8" fill="#0d1117" style="transform-origin: right center; animation: reveal 2400ms ease-out 1850ms forwards;" />
+  <g style="animation: cursor37 2400ms ease-out 1850ms forwards;">
+    <use href="#cursor" x="8" y="305"
+         style="animation: blink 500ms step-end infinite;                       animation-delay: 4250ms;" />
+  </g>
+  <text x="8" y="326" font-family="'Courier New', 'Courier', monospace" font-size="8" fill="#c9d1d9" style="animation: fadeIn 400ms ease-out 4750ms forwards;">
     █
+  </text>
+  <text x="8" y="338" font-family="'Courier New', 'Courier', monospace" font-size="6" fill="#c9d1d9" opacity="0.5" style="animation: fadeIn 500ms ease-out 4950ms forwards;">
+    RishitJariwala@github ~ $ █
   </text>
 </svg>

@@ -4,11 +4,12 @@ ASCII portrait SVG generator with self-printing animation.
 Converts a processed grayscale image into an animated SVG where each row
 types itself in from left to right with a blinking cursor, then freezes.
 
-The conversion pipeline:
-    1. Load grayscale image
-    2. Downsample to character grid
-    3. Map each pixel brightness to a glyph from a density ramp
-    4. Generate SVG with SMIL/CSS animations for typing effect
+Animation approach (GitHub-safe):
+  - Uses CSS @keyframes only (no SMIL <animate>)
+  - Each row: text rendered, then a background-colored overlay rect animates
+    from full-width → 0 using transform: scaleX() with transform-origin: right
+  - A cursor rect follows the overlay edge using transform: translateX()
+  - All animations use fill-mode: forwards and play once
 
 Usage:
     python scripts/make_ascii_svg.py [--config <path>]
@@ -18,22 +19,19 @@ from __future__ import annotations
 
 import argparse
 import logging
-import math
 import sys
 from pathlib import Path
 from typing import Optional
 
-# Ensure project root is on sys.path so scripts package is importable
-_project_root = str(Path(__file__).resolve().parent.parent)
-if _project_root not in sys.path:
-    sys.path.insert(0, _project_root)
-
 import cv2
 import numpy as np
 
-from scripts.utils import load_config, setup_logging, validate_svg, file_hash, needs_rebuild
+from scripts.utils import load_config, setup_logging, validate_svg
 
 logger = logging.getLogger("make_ascii_svg")
+
+RAMP_DEFAULT = " .`:-=+*cs#%@"  # bright (sparse) → dark (dense)
+CHAR_ASPECT = 0.5  # width/height ratio of a monospace character
 
 
 def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
@@ -42,24 +40,13 @@ def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
     )
     parser.add_argument(
         "--config", "-c", type=str, default="config.yaml",
-        help="Path to configuration file",
     )
     parser.add_argument(
         "--input", "-i", type=str, default=None,
-        help="Input grayscale PNG (overrides config)",
     )
-    parser.add_argument(
-        "--output", "-o", type=str, default=None,
-        help="Output SVG path (overrides config)",
-    )
-    parser.add_argument(
-        "--force", "-f", action="store_true", default=False,
-        help="Force regeneration even if output exists",
-    )
-    parser.add_argument(
-        "--verbose", "-v", action="store_true", default=False,
-        help="Enable debug logging",
-    )
+    parser.add_argument("--output", "-o", type=str, default=None)
+    parser.add_argument("--force", "-f", action="store_true", default=False)
+    parser.add_argument("--verbose", "-v", action="store_true", default=False)
     return parser.parse_args(argv)
 
 
@@ -76,27 +63,54 @@ def load_grayscale(path: str) -> np.ndarray:
 
 
 def downsample_to_grid(img: np.ndarray, grid_width: int) -> np.ndarray:
-    """Resize image to target character grid width, preserving aspect ratio."""
+    """Resize image to target character grid width, preserving aspect ratio.
+
+    Uses CHAR_ASPECT because characters are taller than wide.
+    """
     h, w = img.shape
     aspect = h / w
-    grid_height = max(1, int(grid_width * aspect * 0.45))  # 0.45 accounts for font aspect (char width < height)
+    grid_height = max(1, int(grid_width * aspect * CHAR_ASPECT))
     resized = cv2.resize(img, (grid_width, grid_height), interpolation=cv2.INTER_AREA)
-    logger.info(f"Grid size: {resized.shape[1]}x{resized.shape[0]} characters")
+    logger.info(f"Grid size: {resized.shape[1]}x{resized.shape[0]} chars")
     return resized
 
 
-def pixel_to_glyph(pixel_value: int, ramp: str) -> str:
-    """
-    Map a grayscale pixel (0=black, 255=white) to a glyph from the density ramp.
+def trim_blank_rows(grid: np.ndarray, ramp: str) -> np.ndarray:
+    """Remove entirely blank (all-spaces) rows from top and bottom."""
+    rows, cols = grid.shape
+    non_blank = np.ones(rows, dtype=bool)
+    for r in range(rows):
+        row_chars = []
+        for c in range(cols):
+            pixel = int(grid[r, c])
+            inverted = 255 - pixel
+            idx = int(inverted / 255.0 * (len(ramp) - 1))
+            row_chars.append(ramp[idx])
+        if all(ch == ' ' for ch in row_chars):
+            non_blank[r] = False
+    if not np.any(non_blank):
+        return grid
+    trimmed = grid[non_blank]
+    logger.info(f"Trimmed from {rows} to {len(trimmed)} rows (removed {rows - len(trimmed)} blank rows)")
+    return trimmed
 
-    The ramp is ordered from sparse (low density, for bright areas) to dense
-    (high density, for dark areas). A leading space clears background.
+
+def enhance_contrast(img: np.ndarray) -> np.ndarray:
+    """Apply CLAHE for local contrast enhancement."""
+    clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
+    return clahe.apply(img)
+
+
+def pixel_to_glyph(pixel_value: int, ramp: str) -> str:
+    """Map grayscale pixel (0=black, 255=white) to a glyph from the ramp.
+
+    Ramp is ordered bright→dark (sparse→dense). Leading space = background.
     """
     if not ramp:
         return " "
-    # Invert: bright pixels → sparse chars, dark pixels → dense chars
     inverted = 255 - pixel_value
     index = int(inverted / 255.0 * (len(ramp) - 1))
+    index = max(0, min(index, len(ramp) - 1))
     return ramp[index]
 
 
@@ -112,45 +126,65 @@ def generate_svg(
     cursor_blink_ms: int,
 ) -> str:
     """
-    Generate an animated SVG of the ASCII art.
+    Generate animated SVG using CSS @keyframes only (no SMIL).
 
-    Each row is clipped horizontally and revealed left-to-right with a
-    blinking cursor at the writing edge. Rows are staggered top-to-bottom.
-    Animation plays once then freezes.
-
-    The technique:
-    - Each row uses an SVG <clipPath> that expands from 0 to full width
-    - A <rect> cursor blinks at the clip edge
-    - SMIL <animate> drives the clip expansion
-    - Staggered begin times create the top-to-bottom typing effect
+    Technique per row:
+      1. Render full row text in a <text> element
+      2. Place a <rect> overlay (bg_color) on top, with transform-origin: right
+      3. Animate overlay transform: scaleX(1) → scaleX(0) to reveal text LTR
+      4. A cursor <rect> follows the right edge of the overlay
     """
     rows, cols = grid.shape
-    char_w = font_size * 0.6   # approximate monospace character width
-    char_h = font_size * line_height
-    svg_w = cols * char_w
-    svg_h = rows * char_h
-    padding = 5
+    char_w = round(font_size * 0.6, 1)
+    char_h = round(font_size * line_height, 1)
+    padding = 8
 
-    # Build the glyph map
-    glyph_rows: list[list[str]] = []
+    # Build glyph map — trim trailing spaces per row for natural animation
+    glyph_rows: list[str] = []
     for r in range(rows):
-        row_glyphs: list[str] = []
+        row_chars: list[str] = []
         for c in range(cols):
             pixel = int(grid[r, c])
             glyph = pixel_to_glyph(pixel, ramp)
-            row_glyphs.append(glyph)
-        glyph_rows.append(row_glyphs)
+            row_chars.append(glyph)
+        text = "".join(row_chars).rstrip()
+        glyph_rows.append(text)
 
-    svg_w_total = svg_w + 2 * padding
-    svg_h_total = svg_h + 2 * padding + char_h  # extra space for cursor
+    # Compute dimensions (use full width for alignment even with trimmed rows)
+    row_width_px = round(cols * char_w)
+    svg_w = row_width_px + 2 * padding
+    svg_h = padding * 2 + rows * char_h + char_h * 2
+
+    # Per-row animation data
+    row_data: list[dict] = []
+    for r in range(rows):
+        text = glyph_rows[r]
+        trimmed_len = len(text)
+        reveal_width = round(trimmed_len * char_w)
+        dur = max(1, trimmed_len * typing_speed_ms) if trimmed_len > 0 else 1
+        delay = r * 50
+        row_data.append({
+            "text": text,
+            "width": reveal_width,
+            "duration": dur,
+            "delay": delay,
+            "y": padding + r * char_h,
+            "end_delay": delay + dur,
+        })
+
+    total_anim_duration = max(d["end_delay"] for d in row_data) + 500
 
     lines: list[str] = []
-    lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{svg_w_total:.0f}" height="{svg_h_total:.0f}"')
-    lines.append(f'     viewBox="0 0 {svg_w_total:.0f} {svg_h_total:.0f}"')
+    lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{svg_w:.0f}" height="{svg_h:.0f}"')
+    lines.append(f'     viewBox="0 0 {svg_w:.0f} {svg_h:.0f}"')
     lines.append(f'     style="background-color:{bg_color};">')
 
-    # CSS keyframes for cursor blink
+    # ── CSS Keyframes ─────────────────────────────────────────────────
     lines.append("  <style>")
+    lines.append("    @keyframes reveal {")
+    lines.append("      from { transform: scaleX(1); }")
+    lines.append("      to   { transform: scaleX(0); }")
+    lines.append("    }")
     lines.append("    @keyframes blink {")
     lines.append("      0%, 49% { opacity: 1; }")
     lines.append("      50%, 100% { opacity: 0; }")
@@ -159,73 +193,82 @@ def generate_svg(
     lines.append("      from { opacity: 0; }")
     lines.append("      to   { opacity: 1; }")
     lines.append("    }")
+    # Per-row cursor slide keyframes
+    for r, rd in enumerate(row_data):
+        if rd["width"] == 0:
+            continue
+        lines.append(f'    @keyframes cursor{r} {{')
+        lines.append(f'      from {{ transform: translateX(0); }}')
+        lines.append(f'      to   {{ transform: translateX({rd["width"]}px); }}')
+        lines.append(f'    }}')
     lines.append("  </style>")
 
-    # Defs for clip paths
+    # ── Defs ──────────────────────────────────────────────────────────
     lines.append("  <defs>")
-
-    for r in range(rows):
-        row_text = "".join(glyph_rows[r])
-        # Escape XML special characters
-        row_text = (row_text.replace("&", "&amp;")
-                            .replace("<", "&lt;")
-                            .replace(">", "&gt;")
-                            .replace('"', "&quot;"))
-
-        width_px = len(row_text) * char_w
-        duration_ms = len(row_text) * typing_speed_ms
-        delay_ms = r * 80  # stagger between rows
-
-        # Clip path for this row
-        lines.append(f'    <clipPath id="row-clip-{r}">')
-        lines.append(f'      <rect x="{padding}" y="{padding + r * char_h}"')
-        lines.append(f'            width="0" height="{char_h}">')
-        lines.append(f'        <animate attributeName="width"')
-        lines.append(f'                 from="0" to="{width_px}"')
-        lines.append(f'                 dur="{duration_ms}ms" begin="{delay_ms}ms"')
-        lines.append(f'                 fill="freeze" />')
-        lines.append(f'      </rect>')
-        lines.append(f'    </clipPath>')
+    cursor_w = max(2, round(font_size * 0.4))
+    cursor_h = round(char_h - 2)
+    lines.append(f'    <rect id="cursor" width="{cursor_w}" height="{cursor_h}" fill="{char_color}" rx="1" />')
     lines.append("  </defs>")
 
-    # Rendering area
-    for r in range(rows):
-        row_text = "".join(glyph_rows[r])
-        row_text = (row_text.replace("&", "&amp;")
-                            .replace("<", "&lt;")
-                            .replace(">", "&gt;")
-                            .replace('"', "&quot;"))
+    # ── Render rows ───────────────────────────────────────────────────
+    for r, rd in enumerate(row_data):
+        text = rd["text"]
+        y_text = rd["y"]
+        dur = rd["duration"]
+        delay = rd["delay"]
+        end_delay = rd["end_delay"]
+        reveal_w = rd["width"]
 
-        width_px = len(row_text) * char_w
-        duration_ms = len(row_text) * typing_speed_ms
-        delay_ms = r * 80
-        cursor_delay_ms = delay_ms + duration_ms
+        if reveal_w == 0:
+            continue
 
-        # Row text (clipped)
-        lines.append(f'  <text x="{padding}" y="{padding + r * char_h + font_size * 0.85}"')
-        lines.append(f'        font-family="{font_family}" font-size="{font_size}"')
-        lines.append(f'        fill="{char_color}"')
-        lines.append(f'        clip-path="url(#row-clip-{r})">')
-        lines.append(f'    {row_text}')
-        lines.append(f'  </text>')
+        # Escape XML
+        escaped = (text.replace("&", "&amp;")
+                      .replace("<", "&lt;")
+                      .replace(">", "&gt;")
+                      .replace('"', "&quot;"))
 
-        # Blinking cursor
-        cursor_x = padding + width_px + 1
-        lines.append(f'  <rect x="{cursor_x}" y="{padding + r * char_h + 1}"')
-        lines.append(f'        width="{max(1, font_size * 0.4)}" height="{char_h - 2}"')
-        lines.append(f'        fill="{char_color}"')
-        lines.append(f'        style="animation: blink {cursor_blink_ms}ms step-end {'infinite' if r == rows - 1 else '2'};')
-        lines.append(f'                      animation-delay: {cursor_delay_ms}ms;">')
-        lines.append(f'  </rect>')
+        # ── Background text (always visible) ──────────────────────────
+        text_y = round(y_text + font_size * 0.85)
+        lines.append(f'  <text x="{padding}" y="{text_y}"'
+                     f' font-family="{font_family}" font-size="{font_size}"'
+                     f' fill="{char_color}" xml:space="preserve">'
+                     f'{escaped}</text>')
 
-    # Label: blinking cursor line at bottom
-    total_duration = rows * 80 + max(len(r) for r in glyph_rows) * typing_speed_ms
-    label_y = padding + rows * char_h + font_size + 4
-    lines.append(f'  <text x="{padding}" y="{label_y}"')
-    lines.append(f'        font-family="{font_family}" font-size="{font_size * 0.8}"')
-    lines.append(f'        fill="{char_color}"')
-    lines.append(f'        style="animation: fadeIn 500ms ease-out {total_duration}ms both;">')
+        # ── Overlay rect (shrinks to reveal) ──────────────────────────
+        overlay_y = round(y_text)
+        overlay_h = round(char_h)
+        lines.append(f'  <rect x="{padding}" y="{overlay_y}"'
+                     f' width="{reveal_w}" height="{overlay_h}"'
+                     f' fill="{bg_color}"'
+                     f' style="transform-origin: right center;'
+                     f' animation: reveal {dur}ms ease-out {delay}ms forwards;" />')
+
+        # ── Cursor (follows right edge of overlay) ────────────────────
+        cursor_y = round(y_text + 1)
+        lines.append(f'  <g style="animation: cursor{r} {dur}ms ease-out {delay}ms forwards;">')
+        lines.append(f'    <use href="#cursor" x="{padding}" y="{cursor_y}"')
+        blink_iter = 'infinite' if r == len(row_data) - 1 else '2'
+        lines.append(f'         style="animation: blink {cursor_blink_ms}ms step-end {blink_iter};'
+                     f'                       animation-delay: {end_delay}ms;" />')
+        lines.append(f'  </g>')
+
+    # ── Terminal prompt cursor at bottom ──────────────────────────────
+    prompt_y = round(padding + rows * char_h + font_size + 6)
+    lines.append(f'  <text x="{padding}" y="{prompt_y}"'
+                 f' font-family="{font_family}" font-size="{font_size}"'
+                 f' fill="{char_color}"'
+                 f' style="animation: fadeIn 400ms ease-out {total_anim_duration}ms forwards;">')
     lines.append(f'    █')
+    lines.append(f'  </text>')
+
+    # ── Footer credit ─────────────────────────────────────────────────
+    credit_y = prompt_y + font_size + 4
+    lines.append(f'  <text x="{padding}" y="{credit_y}"'
+                 f' font-family="{font_family}" font-size="{max(6, font_size - 2)}"'
+                 f' fill="{char_color}" opacity="0.5"'
+                 f' style="animation: fadeIn 500ms ease-out {total_anim_duration + 200}ms forwards;">')
+    lines.append(f'    RishitJariwala@github ~ $ █')
     lines.append(f'  </text>')
 
     lines.append("</svg>")
@@ -242,23 +285,24 @@ def main(argv: Optional[list[str]] = None) -> int:
     input_path = args.input or "assets/source-prepped.png"
     output_path = args.output or ascii_cfg.get("output_path", "ascii-portrait.svg")
 
-    # Check if rebuild is needed
-    if not args.force:
-        if not needs_rebuild(input_path, output_path):
-            logger.info("ASCII portrait is up to date. Use --force to rebuild.")
-            return 0
-
     try:
         img = load_grayscale(input_path)
     except (FileNotFoundError, ValueError) as exc:
         logger.error(str(exc))
         return 1
 
+    # Enhance contrast
+    img = enhance_contrast(img)
+
     grid_width = ascii_cfg.get("width", 80)
     grid = downsample_to_grid(img, grid_width)
 
-    ramp = ascii_cfg.get("ramp", " .`:-=+*cs#%@")
-    font_family = ascii_cfg.get("font_family", "Courier New, Courier, monospace")
+    ramp = ascii_cfg.get("ramp", RAMP_DEFAULT)
+
+    # Trim blank rows
+    grid = trim_blank_rows(grid, ramp)
+
+    font_family = ascii_cfg.get("font_family", "'Courier New', 'Courier', monospace")
     font_size = ascii_cfg.get("font_size", 8)
     line_height = ascii_cfg.get("line_height", 1.0)
     char_color = ascii_cfg.get("char_color", "#c9d1d9")
