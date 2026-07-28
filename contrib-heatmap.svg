@@ -1561,7 +1561,7 @@
   <rect x="700" y="64"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#006d32"
+        fill="#39d353"
         style="animation: cellReveal 600ms ease-out 215ms both;" />
   <rect x="700" y="80"
         width="13" height="13"
@@ -1981,7 +1981,7 @@
   <rect x="892" y="64"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#006d32"
+        fill="#39d353"
         style="animation: cellReveal 600ms ease-out 275ms both;" />
   <rect x="892" y="80"
         width="13" height="13"
@@ -2044,7 +2044,7 @@
         font-family="'Courier New', Courier, monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeIn 500ms ease-out 470ms both;">
-    7 contributions in the last year
+    8 contributions in the last year
   </text>
   <text x="42" y="194"
         font-family="'Courier New', Courier, monospace" font-size="12"
