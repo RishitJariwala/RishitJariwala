@@ -2,20 +2,18 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+Only the latest commit on the `main` branch receives security updates.
+This project is a personal profile README — there are no versioned releases.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+This repository generates animated SVG assets for a GitHub profile README.
+It does not process user input, store credentials, or handle sensitive data.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+If you discover a security issue:
+
+1. **Do not** open a public issue.
+2. Email the maintainer directly at **rishit.vishal@msaic.christuniversity.in**
+3. Include a description of the issue and steps to reproduce.
+
+You can expect an acknowledgement within 48 hours and a fix within 7 days.
