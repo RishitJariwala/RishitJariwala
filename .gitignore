@@ -1,0 +1,31 @@
+# =============================================================================
+# GitHub Profile README Generator — .gitignore
+# =============================================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+*.egg
+
+# Portrait processing — source photos (do not commit)
+assets/profile-photo.*
+assets/source-prepped.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Optional: keep generated SVGs but ignore if regenerated locally
+# (they are committed by the CI workflow)
+# *.svg

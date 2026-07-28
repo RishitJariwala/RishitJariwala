@@ -1,0 +1,27 @@
+# =============================================================================
+# Dependencies for GitHub Profile README Generator
+# =============================================================================
+# Split into two groups:
+#   1. Core (always needed): requests, beautifulsoup4, pyyaml
+#   2. Portrait (local only): pillow, numpy, opencv-python, rembg
+#
+# The GitHub Actions daily workflow only installs core dependencies.
+# Portrait scripts are run locally on demand.
+# =============================================================================
+
+# ── Core (installed in CI daily) ──────────────────────────────────────────────
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+pyyaml>=6.0
+typing-extensions>=4.0.0
+
+# ── Portrait (local-only, heavy deps) ─────────────────────────────────────────
+# These are commented out by default because they require system-level
+# dependencies (libgl, etc.) and are not needed in CI.
+# Uncomment when running locally for photo processing:
+# Pillow>=10.0.0
+# numpy>=1.24.0
+# opencv-python>=4.8.0
+# rembg>=0.1.0
+# onnxruntime>=1.15.0

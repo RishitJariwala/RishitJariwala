@@ -1,0 +1,124 @@
+# =============================================================================
+# GitHub Profile README Generator — Configuration
+# =============================================================================
+# Customise every aspect of your animated GitHub profile.
+# =============================================================================
+
+# ── Identity ──────────────────────────────────────────────────────────────────
+username: "RishitJariwala"
+display_name: "Rishit Jariwala"
+title: "Software Engineer"
+location: "India"
+company: ""
+website: "https://rishit-jariwala.me"
+email: "rishit.vishal@msaic.christuniversity.in"
+
+# ── ASCII Portrait ────────────────────────────────────────────────────────────
+ascii:
+  source_image: "assets/profile-photo.jpg"
+  output_path: "ascii-portrait.svg"
+  width: 80
+  ramp: " .`:-=+*cs#%@"
+  font_family: "'Courier New', 'Courier', monospace"
+  font_size: 8
+  line_height: 1.0
+  typing_speed_ms: 30
+  cursor_blink_ms: 500
+  char_color: "#c9d1d9"
+  bg_color: "#0d1117"
+  photo:
+    output_width: 800
+    contrast: 1.2
+    brightness: 1.0
+    gamma: 1.0
+    bg_remove: true
+    bg_color: "#FFFFFF"
+
+# ── Info Card ─────────────────────────────────────────────────────────────────
+info_card:
+  output_path: "info-card.svg"
+  font_family: "'Courier New', 'Courier', monospace"
+  font_size: 13
+  line_height: 1.6
+  title_color: "#ff6b6b"
+  key_color: "#79c0ff"
+  value_color: "#c9d1d9"
+  symbol_color: "#56d364"
+  bg_color: "#0d1117"
+  border_color: "#30363d"
+  animation:
+    row_delay_ms: 100
+    fade_duration_ms: 400
+    slide_distance: 20
+  fields:
+    name: "Rishit Jariwala"
+    title: "Software Engineer"
+    location: "India"
+    website: "rishit-jariwala.me"
+    languages:
+      - "Python"
+      - "Kotlin"
+      - "Dart"
+      - "TypeScript"
+    frameworks:
+      - "Flutter"
+      - "FastAPI"
+    tools:
+      - "Git"
+      - "VS Code"
+      - "Android Studio"
+    os:
+      - "macOS"
+      - "Linux"
+    interests:
+      - "Mobile Development"
+      - "Security"
+      - "Open Source"
+  highlights:
+    - "Pull Shark achievement"
+    - "Building CLI tools"
+  current_projects:
+    - "Profile README Generator"
+  social:
+    github: "RishitJariwala"
+    linkedin: "rishit-jariwala"
+    website: "rishit-jariwala.me"
+
+# ── Contribution Heatmap ──────────────────────────────────────────────────────
+heatmap:
+  output_path: "contrib-heatmap.svg"
+  data_path: "data/contributions.json"
+  cell_size: 13
+  cell_spacing: 3
+  cell_radius: 3
+  weeks: 53
+  days: 7
+  animation_duration_ms: 800
+  diagonal_delay_ms: 5
+  palette:
+    - "#161b22"
+    - "#0e4429"
+    - "#006d32"
+    - "#26a641"
+    - "#39d353"
+  label_color: "#8b949e"
+  stat_color: "#c9d1d9"
+  bg_color: "#0d1117"
+
+# ── README Layout ─────────────────────────────────────────────────────────────
+readme:
+  output_path: "README.md"
+  prompts:
+    contributions: "./contributions.sh"
+    portrait: "whoami"
+    stack: "echo $STACK"
+  spacing: "<br>"
+  heatmap_width: 860
+  portrait_width: 370
+  card_width: 490
+
+# ── Automation ────────────────────────────────────────────────────────────────
+automation:
+  schedule: "17 6 * * *"
+  commit_message: "chore: refresh profile assets [skip ci]"
+  python_version: "3.11"

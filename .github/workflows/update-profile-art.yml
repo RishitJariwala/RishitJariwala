@@ -1,0 +1,113 @@
+name: Update Profile Art
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-heatmap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install core dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Log configuration
+        run: |
+          echo "::group::Configuration summary"
+          echo "Username: $(python -c "import yaml; print(yaml.safe_load(open('config.yaml'))['username'])")"
+          echo "Schedule: 17 6 * * *"
+          echo "Python: $(python --version)"
+          echo "::endgroup::"
+
+      - name: Fetch contribution data
+        id: fetch
+        run: |
+          python scripts/fetch_contributions.py
+        continue-on-error: true
+
+      - name: Check fetch status
+        if: steps.fetch.outcome != 'success'
+        run: |
+          echo "::warning::Contribution fetch failed. Will use cached data if available."
+          echo "FETCH_STATUS=failed" >> $GITHUB_ENV
+
+      - name: Render contribution heatmap
+        run: |
+          python scripts/render_heatmap_svg.py
+
+      - name: Validate generated SVG
+        run: |
+          python -c "
+          import sys, os
+          from scripts.utils import validate_svg, validate_json_structure, load_json
+
+          # Validate heatmap SVG
+          if not validate_svg('contrib-heatmap.svg'):
+              print('::error::Heatmap SVG validation failed')
+              sys.exit(1)
+          print('✓ Heatmap SVG validated')
+
+          # Validate contribution data
+          data = load_json('data/contributions.json')
+          if data is None:
+              print('::warning::No contribution data found')
+          else:
+              required = ['days', 'yearly_total', 'current_streak', 'longest_streak']
+              for key in required:
+                  if key not in data:
+                      print(f'::warning::Missing key in contributions data: {key}')
+              print('✓ Contribution data validated')
+          "
+
+      - name: Generate README
+        run: |
+          python scripts/generate_readme.py
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git add -N .
+          if git diff --exit-code -- 'contrib-heatmap.svg' 'data/contributions.json' 'README.md'; then
+            echo "CHANGED=false" >> $GITHUB_ENV
+            echo "No changes to commit."
+          else
+            echo "CHANGED=true" >> $GITHUB_ENV
+            echo "Changes detected."
+          fi
+
+      - name: Commit and push changes
+        if: env.CHANGED == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh contribution graph [skip ci]"
+          file_pattern: "contrib-heatmap.svg data/contributions.json README.md"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+
+      - name: Workflow summary
+        run: |
+          echo "## Workflow Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- Contributions fetched: \`${{ steps.fetch.outcome }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- Heatmap rendered: \`contrib-heatmap.svg\`" >> $GITHUB_STEP_SUMMARY
+          echo "- Changes committed: \`${{ env.CHANGED }}\`" >> $GITHUB_STEP_SUMMARY
