@@ -56,13 +56,17 @@ def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
 
 def build_terminal_header(username: str) -> str:
     """Build the terminal-style header for the README."""
+    green = '<font color="#56d364">'
+    blue = '<font color="#79c0ff">'
+    gray = '<font color="#8b949e">'
+    close = '</font>'
     return (
         '<div align="center">\n'
         '\n'
-        '```ansi\n'
-        f'\x1b[1;32m{username}\x1b[0m\x1b[1;37m@\x1b[0m\x1b[1;34mgithub\x1b[0m\x1b[1;37m\x1b[0m\n'
-        f'\x1b[1;37m--------------------------\x1b[0m\n'
-        '```\n'
+        '<pre>\n'
+        f'{green}{username}{close}{gray}@{close}{blue}github{close}\n'
+        f'{gray}--------------------------{close}\n'
+        '</pre>\n'
         '\n'
     )
 

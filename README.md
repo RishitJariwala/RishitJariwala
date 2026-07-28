@@ -1,9 +1,9 @@
 <div align="center">
 
-```ansi
-[1;32mRishitJariwala[0m[1;37m@[0m[1;34mgithub[0m[1;37m[0m
-[1;37m--------------------------[0m
-```
+<pre>
+<font color="#56d364">RishitJariwala</font><font color="#8b949e">@</font><font color="#79c0ff">github</font>
+<font color="#8b949e">--------------------------</font>
+</pre>
 
 
   <h3><code>RishitJariwala@github ~ $ <font color="#56d364">./contributions.sh</font></code></h3>
