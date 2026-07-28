@@ -184,6 +184,9 @@ def generate_info_card_svg(
     lines.append("      from { width: 0; }")
     lines.append("      to { width: 100%; }")
     lines.append("    }")
+    lines.append("    @media (prefers-reduced-motion: reduce) {")
+    lines.append("      * { animation-duration: 0s !important; animation-delay: 0s !important; }")
+    lines.append("    }")
     lines.append("  </style>")
 
     # Title bar

@@ -165,6 +165,9 @@ def generate_heatmap_svg(
     lines.append("      from { opacity: 0; }")
     lines.append("      to   { opacity: 1; }")
     lines.append("    }")
+    lines.append("    @media (prefers-reduced-motion: reduce) {")
+    lines.append("      * { animation-duration: 0s !important; animation-delay: 0s !important; }")
+    lines.append("    }")
     lines.append("  </style>")
 
     # Month labels

@@ -16,6 +16,9 @@
       from { opacity: 0; }
       to   { opacity: 1; }
     }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation-duration: 0s !important; animation-delay: 0s !important; }
+    }
   </style>
   <text x="50" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"

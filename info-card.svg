@@ -17,6 +17,9 @@
       from { width: 0; }
       to { width: 100%; }
     }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation-duration: 0s !important; animation-delay: 0s !important; }
+    }
   </style>
   <text x="16" y="33"
         font-family="'Courier New', 'Courier', monospace" font-size="13"

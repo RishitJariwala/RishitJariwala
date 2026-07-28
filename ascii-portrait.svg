@@ -166,6 +166,9 @@
       from { transform: translateX(0); }
       to   { transform: translateX(384px); }
     }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation-duration: 0s !important; animation-delay: 0s !important; }
+    }
   </style>
   <defs>
     <rect id="cursor" width="3" height="6" fill="#c9d1d9" rx="1" />
