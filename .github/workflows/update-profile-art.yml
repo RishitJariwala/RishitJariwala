@@ -42,7 +42,7 @@ jobs:
       - name: Fetch contribution data
         id: fetch
         run: |
-          python scripts/fetch_contributions.py
+          PYTHONPATH=. python scripts/fetch_contributions.py
         continue-on-error: true
 
       - name: Check fetch status
@@ -53,11 +53,11 @@ jobs:
 
       - name: Render contribution heatmap
         run: |
-          python scripts/render_heatmap_svg.py
+          PYTHONPATH=. python scripts/render_heatmap_svg.py
 
       - name: Validate generated SVG
         run: |
-          python -c "
+          PYTHONPATH=. python -c "
           import sys, os
           from scripts.utils import validate_svg, validate_json_structure, load_json
 
@@ -81,7 +81,7 @@ jobs:
 
       - name: Generate README
         run: |
-          python scripts/generate_readme.py
+          PYTHONPATH=. python scripts/generate_readme.py
 
       - name: Check for changes
         id: diff

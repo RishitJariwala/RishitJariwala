@@ -25,6 +25,11 @@ import sys
 from pathlib import Path
 from typing import Optional
 
+# Ensure project root is on sys.path so scripts package is importable
+_project_root = str(Path(__file__).resolve().parent.parent)
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
 from scripts.utils import load_config, setup_logging, validate_svg
 
 logger = logging.getLogger("generate_readme")
