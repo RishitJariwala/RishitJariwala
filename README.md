@@ -8,7 +8,9 @@
 
   <h3><code>RishitJariwala@github ~ $ <font color="#56d364">./contributions.sh</font></code></h3>
 
-  <img src="./contrib-heatmap.svg" width="860" />
+  <br>
+
+  <img src="https://raw.githubusercontent.com/RishitJariwala/RishitJariwala/main/contrib-heatmap.svg" width="860" />
 
   <br>
   <h3><code>RishitJariwala@github ~ $ <font color="#79c0ff">whoami</font></code></h3>
@@ -16,8 +18,8 @@
   <br>
   <table>
     <tr>
-      <td valign="top"><img src="./ascii-portrait.svg" width="370" /></td>
-      <td valign="top"><img src="./info-card.svg" width="490" /></td>
+      <td valign="top"><img src="https://raw.githubusercontent.com/RishitJariwala/RishitJariwala/main/ascii-portrait.svg" width="370" /></td>
+      <td valign="top"><img src="https://raw.githubusercontent.com/RishitJariwala/RishitJariwala/main/info-card.svg" width="490" /></td>
     </tr>
   </table>
 

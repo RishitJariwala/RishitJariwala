@@ -120,13 +120,17 @@ def generate_readme(
     prompt_red = '<font color="#ff6b6b">'
     close_font = '</font>'
 
+    raw_url = f"https://raw.githubusercontent.com/{username}/{username}/main"
+    blob_url = f"https://github.com/{username}/{username}/blob/main"
+
     # Contribution heatmap section
     contrib_prompt = prompts.get("contributions", "./contributions.sh")
     sections.append(
         f'  <h3><code>{username}@github ~ $ {prompt_green}{contrib_prompt}{close_font}</code></h3>\n'
     )
+    sections.append(f'  <br>\n')
     sections.append(
-        f'  <img src="./{heatmap_path}" width="{heatmap_width}" />\n'
+        f'  <img src="{raw_url}/{heatmap_path}" width="{heatmap_width}" />\n'
     )
     sections.append(f'  {spacing}')
 
@@ -139,8 +143,8 @@ def generate_readme(
     sections.append(
         '  <table>\n'
         '    <tr>\n'
-        f'      <td valign="top"><img src="./{portrait_path}" width="{portrait_width}" /></td>\n'
-        f'      <td valign="top"><img src="./{card_path}" width="{card_width}" /></td>\n'
+        f'      <td valign="top"><img src="{raw_url}/{portrait_path}" width="{portrait_width}" /></td>\n'
+        f'      <td valign="top"><img src="{raw_url}/{card_path}" width="{card_width}" /></td>\n'
         '    </tr>\n'
         '  </table>\n'
     )
