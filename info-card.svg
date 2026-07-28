@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="765"
-     viewBox="0 0 400 765"
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="1065"
+     viewBox="0 0 400 1065"
      style="background-color:#0d1117;">
-  <rect x="1" y="1" width="398" height="763" rx="8" ry="8" fill="none" stroke="#30363d" stroke-width="1" />
+  <rect x="1" y="1" width="398" height="1063" rx="8" ry="8" fill="none" stroke="#30363d" stroke-width="1" />
   <style>
     @keyframes fadeSlideIn {
       from {
@@ -43,7 +43,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 150ms both;">
-    Rishit Jariwala
+    Rishit Vishal Jariwala
   </text>
   <text x="16" y="93"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -61,7 +61,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 250ms both;">
-    Software Engineer
+    Senior Software Developer
   </text>
   <text x="16" y="113"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -79,7 +79,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 350ms both;">
-    India
+    Bengaluru, Karnataka
   </text>
   <text x="16" y="133"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -92,6 +92,12 @@
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 400ms both;">
     Company:
+  </text>
+  <text x="131.8" y="133"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 450ms both;">
+    iMent Consulting LLP
   </text>
   <text x="16" y="153"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -127,7 +133,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 650ms both;">
-    rishitjari@gmail.com
+    jariwalarishit@gmail.com
   </text>
   <text x="16" y="193"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -139,19 +145,25 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 700ms both;">
-    languages:
+    Education:
+  </text>
+  <text x="131.8" y="193"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 750ms both;">
+    MSc AI & Cybersecurity @ CHRIST University
+  </text>
+  <text x="16" y="213"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#56d364"
+        style="animation: fadeSlideIn 400ms ease-out 800ms both;">
+    ●
   </text>
   <text x="34" y="213"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 800ms both;">
-      •
-  </text>
-  <text x="131.8" y="213"
-        font-family="'Courier New', 'Courier', monospace" font-size="13"
-        fill="#c9d1d9"
-        style="animation: fadeSlideIn 400ms ease-out 850ms both;">
-    Python
+    languages:
   </text>
   <text x="34" y="233"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -163,7 +175,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 950ms both;">
-    Kotlin
+    Python
   </text>
   <text x="34" y="253"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -175,7 +187,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 1050ms both;">
-    Dart
+    Java
   </text>
   <text x="34" y="273"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -187,19 +199,19 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 1150ms both;">
-    TypeScript
-  </text>
-  <text x="16" y="293"
-        font-family="'Courier New', 'Courier', monospace" font-size="13"
-        fill="#56d364"
-        style="animation: fadeSlideIn 400ms ease-out 1200ms both;">
-    ●
+    .NET
   </text>
   <text x="34" y="293"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 1200ms both;">
-    frameworks:
+      •
+  </text>
+  <text x="131.8" y="293"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 1250ms both;">
+    SQL
   </text>
   <text x="34" y="313"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -211,7 +223,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 1350ms both;">
-    Flutter
+    C/C++
   </text>
   <text x="34" y="333"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -223,19 +235,19 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 1450ms both;">
-    FastAPI
-  </text>
-  <text x="16" y="353"
-        font-family="'Courier New', 'Courier', monospace" font-size="13"
-        fill="#56d364"
-        style="animation: fadeSlideIn 400ms ease-out 1500ms both;">
-    ●
+    PHP
   </text>
   <text x="34" y="353"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 1500ms both;">
-    tools:
+      •
+  </text>
+  <text x="131.8" y="353"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 1550ms both;">
+    Kotlin
   </text>
   <text x="34" y="373"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -247,19 +259,19 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 1650ms both;">
-    Git
+    Dart
+  </text>
+  <text x="16" y="393"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#56d364"
+        style="animation: fadeSlideIn 400ms ease-out 1700ms both;">
+    ●
   </text>
   <text x="34" y="393"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 1700ms both;">
-      •
-  </text>
-  <text x="131.8" y="393"
-        font-family="'Courier New', 'Courier', monospace" font-size="13"
-        fill="#c9d1d9"
-        style="animation: fadeSlideIn 400ms ease-out 1750ms both;">
-    VS Code
+    frameworks:
   </text>
   <text x="34" y="413"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -271,19 +283,19 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 1850ms both;">
-    Android Studio
-  </text>
-  <text x="16" y="433"
-        font-family="'Courier New', 'Courier', monospace" font-size="13"
-        fill="#56d364"
-        style="animation: fadeSlideIn 400ms ease-out 1900ms both;">
-    ●
+    FastAPI
   </text>
   <text x="34" y="433"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 1900ms both;">
-    os:
+      •
+  </text>
+  <text x="131.8" y="433"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 1950ms both;">
+    Flutter
   </text>
   <text x="34" y="453"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -295,7 +307,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 2050ms both;">
-    macOS
+    ERP Modules
   </text>
   <text x="34" y="473"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -307,7 +319,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 2150ms both;">
-    Linux
+    Vulnerability Assessment
   </text>
   <text x="16" y="493"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -319,7 +331,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 2200ms both;">
-    interests:
+    tools:
   </text>
   <text x="34" y="513"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -331,7 +343,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 2350ms both;">
-    Mobile Development
+    Git
   </text>
   <text x="34" y="533"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -343,7 +355,7 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 2450ms both;">
-    Security
+    VS Code
   </text>
   <text x="34" y="553"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -355,79 +367,79 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 2550ms both;">
-    Open Source
-  </text>
-  <text x="16" y="573"
-        font-family="'Courier New', 'Courier', monospace" font-size="13"
-        fill="#56d364"
-        style="animation: fadeSlideIn 400ms ease-out 2600ms both;">
-    ●
+    Linux
   </text>
   <text x="34" y="573"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 2600ms both;">
-    social:
+      •
+  </text>
+  <text x="131.8" y="573"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 2650ms both;">
+    Penetration Testing
   </text>
   <text x="34" y="593"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 2700ms both;">
-      github:
+      •
   </text>
   <text x="131.8" y="593"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 2750ms both;">
-    RishitJariwala
+    UAT
+  </text>
+  <text x="16" y="613"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#56d364"
+        style="animation: fadeSlideIn 400ms ease-out 2800ms both;">
+    ●
   </text>
   <text x="34" y="613"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 2800ms both;">
-      linkedin:
-  </text>
-  <text x="131.8" y="613"
-        font-family="'Courier New', 'Courier', monospace" font-size="13"
-        fill="#c9d1d9"
-        style="animation: fadeSlideIn 400ms ease-out 2850ms both;">
-    rishit-jariwala
+    os:
   </text>
   <text x="34" y="633"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 2900ms both;">
-      website:
+      •
   </text>
   <text x="131.8" y="633"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 2950ms both;">
-    rishit-jariwala.me
-  </text>
-  <text x="16" y="653"
-        font-family="'Courier New', 'Courier', monospace" font-size="13"
-        fill="#56d364"
-        style="animation: fadeSlideIn 400ms ease-out 3000ms both;">
-    ●
+    macOS
   </text>
   <text x="34" y="653"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 3000ms both;">
-    highlights:
+      •
+  </text>
+  <text x="131.8" y="653"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 3050ms both;">
+    Linux
+  </text>
+  <text x="16" y="673"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#56d364"
+        style="animation: fadeSlideIn 400ms ease-out 3100ms both;">
+    ●
   </text>
   <text x="34" y="673"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 3100ms both;">
-      •
-  </text>
-  <text x="131.8" y="673"
-        font-family="'Courier New', 'Courier', monospace" font-size="13"
-        fill="#c9d1d9"
-        style="animation: fadeSlideIn 400ms ease-out 3150ms both;">
-    Pull Shark achievement
+    interests:
   </text>
   <text x="34" y="693"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -439,19 +451,19 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 3250ms both;">
-    Building CLI tools
-  </text>
-  <text x="16" y="713"
-        font-family="'Courier New', 'Courier', monospace" font-size="13"
-        fill="#56d364"
-        style="animation: fadeSlideIn 400ms ease-out 3300ms both;">
-    ●
+    Cybersecurity
   </text>
   <text x="34" y="713"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#79c0ff"
         style="animation: fadeSlideIn 400ms ease-out 3300ms both;">
-    projects:
+      •
+  </text>
+  <text x="131.8" y="713"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 3350ms both;">
+    Penetration Testing
   </text>
   <text x="34" y="733"
         font-family="'Courier New', 'Courier', monospace" font-size="13"
@@ -463,9 +475,189 @@
         font-family="'Courier New', 'Courier', monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeSlideIn 400ms ease-out 3450ms both;">
-    Profile README Generator
+    AI/ML
   </text>
-  <line x1="16" y1="757" x2="384" y2="757"
+  <text x="34" y="753"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 3500ms both;">
+      •
+  </text>
+  <text x="131.8" y="753"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 3550ms both;">
+    Vulnerability Assessment
+  </text>
+  <text x="34" y="773"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 3600ms both;">
+      •
+  </text>
+  <text x="131.8" y="773"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 3650ms both;">
+    ERP Development
+  </text>
+  <text x="16" y="793"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#56d364"
+        style="animation: fadeSlideIn 400ms ease-out 3700ms both;">
+    ●
+  </text>
+  <text x="34" y="793"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 3700ms both;">
+    social:
+  </text>
+  <text x="34" y="813"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 3800ms both;">
+      github:
+  </text>
+  <text x="131.8" y="813"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 3850ms both;">
+    RishitJariwala
+  </text>
+  <text x="34" y="833"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 3900ms both;">
+      linkedin:
+  </text>
+  <text x="131.8" y="833"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 3950ms both;">
+    rishit-jariwala
+  </text>
+  <text x="34" y="853"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 4000ms both;">
+      website:
+  </text>
+  <text x="131.8" y="853"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 4050ms both;">
+    rishit-jariwala.me
+  </text>
+  <text x="16" y="873"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#56d364"
+        style="animation: fadeSlideIn 400ms ease-out 4100ms both;">
+    ●
+  </text>
+  <text x="34" y="873"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 4100ms both;">
+    highlights:
+  </text>
+  <text x="34" y="893"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 4200ms both;">
+      •
+  </text>
+  <text x="131.8" y="893"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 4250ms both;">
+    eJPT – Junior Penetration Tester (INE Security)
+  </text>
+  <text x="34" y="913"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 4300ms both;">
+      •
+  </text>
+  <text x="131.8" y="913"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 4350ms both;">
+    Improved ERP efficiency by 30% via Python automation
+  </text>
+  <text x="34" y="933"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 4400ms both;">
+      •
+  </text>
+  <text x="131.8" y="933"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 4450ms both;">
+    Reduced incident resolution time by 25% through RCA
+  </text>
+  <text x="34" y="953"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 4500ms both;">
+      •
+  </text>
+  <text x="131.8" y="953"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 4550ms both;">
+    Built 5 secure e-commerce apps (Java, .NET)
+  </text>
+  <text x="34" y="973"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 4600ms both;">
+      •
+  </text>
+  <text x="131.8" y="973"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 4650ms both;">
+    Red Hat System Administration II (RH134)
+  </text>
+  <text x="16" y="993"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#56d364"
+        style="animation: fadeSlideIn 400ms ease-out 4700ms both;">
+    ●
+  </text>
+  <text x="34" y="993"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 4700ms both;">
+    projects:
+  </text>
+  <text x="34" y="1013"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 4800ms both;">
+      •
+  </text>
+  <text x="131.8" y="1013"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 4850ms both;">
+    Profile README Generator (Python + SVG animation)
+  </text>
+  <text x="34" y="1033"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#79c0ff"
+        style="animation: fadeSlideIn 400ms ease-out 4900ms both;">
+      •
+  </text>
+  <text x="131.8" y="1033"
+        font-family="'Courier New', 'Courier', monospace" font-size="13"
+        fill="#c9d1d9"
+        style="animation: fadeSlideIn 400ms ease-out 4950ms both;">
+    AI-enabled web security tooling
+  </text>
+  <line x1="16" y1="1057" x2="384" y2="1057"
         stroke="#30363d" stroke-width="1"
-        style="animation: fadeSlideIn 400ms ease-out 3500ms both;" />
+        style="animation: fadeSlideIn 400ms ease-out 5000ms both;" />
 </svg>

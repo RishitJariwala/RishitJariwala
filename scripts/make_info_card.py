@@ -29,6 +29,7 @@ logger = logging.getLogger("make_info_card")
 
 SECTION_ORDER = [
     "name", "title", "location", "company", "website", "email",
+    "education", "experience", "certifications",
     "languages", "frameworks", "tools", "os",
     "interests", "social", "highlights", "current_projects",
 ]

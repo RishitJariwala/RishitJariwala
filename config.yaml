@@ -6,12 +6,12 @@
 
 # ── Identity ──────────────────────────────────────────────────────────────────
 username: "RishitJariwala"
-display_name: "Rishit Jariwala"
-title: "Software Engineer"
-location: "India"
-company: ""
+display_name: "Rishit Vishal Jariwala"
+title: "Senior Software Developer"
+location: "Bengaluru, Karnataka"
+company: "iMent Consulting LLP"
 website: "https://rishit-jariwala.me"
-email: "rishitjari@gmail.com"
+email: "jariwalarishit@gmail.com"
 
 # ── ASCII Portrait ────────────────────────────────────────────────────────────
 ascii:
@@ -51,35 +51,51 @@ info_card:
     fade_duration_ms: 400
     slide_distance: 20
   fields:
-    name: "Rishit Jariwala"
-    title: "Software Engineer"
-    location: "India"
+    name: "Rishit Vishal Jariwala"
+    title: "Senior Software Developer"
+    location: "Bengaluru, Karnataka"
+    company: "iMent Consulting LLP"
     website: "rishit-jariwala.me"
-    email: "rishitjari@gmail.com"
+    email: "jariwalarishit@gmail.com"
+    education: "MSc AI & Cybersecurity @ CHRIST University"
     languages:
       - "Python"
+      - "Java"
+      - ".NET"
+      - "SQL"
+      - "C/C++"
+      - "PHP"
       - "Kotlin"
       - "Dart"
-      - "TypeScript"
     frameworks:
-      - "Flutter"
       - "FastAPI"
+      - "Flutter"
+      - "ERP Modules"
+      - "Vulnerability Assessment"
     tools:
       - "Git"
       - "VS Code"
-      - "Android Studio"
+      - "Linux"
+      - "Penetration Testing"
+      - "UAT"
     os:
       - "macOS"
       - "Linux"
     interests:
-      - "Mobile Development"
-      - "Security"
-      - "Open Source"
+      - "Cybersecurity"
+      - "Penetration Testing"
+      - "AI/ML"
+      - "Vulnerability Assessment"
+      - "ERP Development"
   highlights:
-    - "Pull Shark achievement"
-    - "Building CLI tools"
+    - "eJPT – Junior Penetration Tester (INE Security)"
+    - "Improved ERP efficiency by 30% via Python automation"
+    - "Reduced incident resolution time by 25% through RCA"
+    - "Built 5 secure e-commerce apps (Java, .NET)"
+    - "Red Hat System Administration II (RH134)"
   current_projects:
-    - "Profile README Generator"
+    - "Profile README Generator (Python + SVG animation)"
+    - "AI-enabled web security tooling"
   social:
     github: "RishitJariwala"
     linkedin: "rishit-jariwala"

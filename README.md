@@ -29,17 +29,17 @@
 
     <tr>
       <td><code>Languages</code></td>
-      <td><code>Python · Kotlin · Dart · TypeScript</code></td>
+      <td><code>Python · Java · .NET · SQL · C/C++ · PHP · Kotlin · Dart</code></td>
     </tr>
 
     <tr>
       <td><code>Frameworks</code></td>
-      <td><code>Flutter · FastAPI</code></td>
+      <td><code>FastAPI · Flutter · ERP Modules · Vulnerability Assessment</code></td>
     </tr>
 
     <tr>
       <td><code>Tools</code></td>
-      <td><code>Git · VS Code · Android Studio</code></td>
+      <td><code>Git · VS Code · Linux · Penetration Testing · UAT</code></td>
     </tr>
 
     <tr>
