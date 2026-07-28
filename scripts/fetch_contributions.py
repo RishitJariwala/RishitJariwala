@@ -18,7 +18,7 @@ from __future__ import annotations
 import argparse
 import logging
 import sys
-from datetime import datetime, timedelta, date
+from datetime import datetime, timedelta, date, timezone
 from pathlib import Path
 from typing import Any, Optional
 
@@ -406,7 +406,7 @@ def main(argv: Optional[list[str]] = None) -> int:
 
     result = {
         "username": username,
-        "fetched_at": datetime.now(datetime.UTC).isoformat().replace("+00:00", "Z"),
+        "fetched_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "days": days,
         "weeks": week_grid,
         **stats,
