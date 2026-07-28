@@ -13,7 +13,11 @@ It does not process user input, store credentials, or handle sensitive data.
 If you discover a security issue:
 
 1. **Do not** open a public issue.
-2. Email the maintainer directly at **rishit.vishal@msaic.christuniversity.in**
-3. Include a description of the issue and steps to reproduce.
+2. Contact through LinkedIn: **https://www.linkedin.com/in/rishit-jariwala/**
+3. Or email directly:
+   - rishitjari@gmail.com
+   - jariwalarishit@gmail.com
+
+Include a description of the issue and steps to reproduce.
 
 You can expect an acknowledgement within 48 hours and a fix within 7 days.

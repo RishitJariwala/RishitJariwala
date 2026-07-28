@@ -11,7 +11,7 @@ title: "Software Engineer"
 location: "India"
 company: ""
 website: "https://rishit-jariwala.me"
-email: "rishit.vishal@msaic.christuniversity.in"
+email: "rishitjari@gmail.com"
 
 # ── ASCII Portrait ────────────────────────────────────────────────────────────
 ascii:
@@ -55,6 +55,7 @@ info_card:
     title: "Software Engineer"
     location: "India"
     website: "rishit-jariwala.me"
+    email: "rishitjari@gmail.com"
     languages:
       - "Python"
       - "Kotlin"
