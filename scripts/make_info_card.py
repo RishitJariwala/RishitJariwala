@@ -58,17 +58,25 @@ def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
     return parser.parse_args(argv)
 
 
+def escape_xml(text: str) -> str:
+    return (text.replace("&", "&amp;")
+                .replace("<", "&lt;")
+                .replace(">", "&gt;")
+                .replace('"', "&quot;")
+                .replace("'", "&apos;"))
+
+
 def format_value(value: Any) -> list[str]:
     """Format a field value into a list of display lines."""
     if isinstance(value, str):
-        return [value]
+        return [escape_xml(value)]
     if isinstance(value, list):
         if all(isinstance(v, dict) for v in value):
-            return [f"{list(v.items())[0][0]}: {list(v.items())[0][1]}" for v in value]
-        return value
+            return [escape_xml(f"{list(v.items())[0][0]}: {list(v.items())[0][1]}") for v in value]
+        return [escape_xml(v) if isinstance(v, str) else str(v) for v in value]
     if isinstance(value, dict):
-        return [f"{k}: {v}" for k, v in value.items()]
-    return [str(value)]
+        return [escape_xml(f"{k}: {v}") for k, v in value.items()]
+    return [escape_xml(str(value))]
 
 
 def generate_info_card_svg(
@@ -135,7 +143,7 @@ def generate_info_card_svg(
             if social:
                 rows.append(("●", "social:", ""))
                 for platform, handle in social.items():
-                    rows.append(("", f"  {platform}:", handle))
+                    rows.append(("", escape_xml(f"  {platform}:"), escape_xml(handle)))
             continue
 
         value = fields.get(key)
@@ -208,6 +216,8 @@ def generate_info_card_svg(
     for i, (symbol, label, val) in enumerate(rows):
         delay = 100 + i * row_delay_ms
         row_y = div_y + 12 + (i + 1) * line_h
+        escaped_label = escape_xml(label)
+        escaped_val = escape_xml(val) if val else ""
 
         # Symbol (bullet)
         if symbol:
@@ -224,7 +234,7 @@ def generate_info_card_svg(
         lines.append(f'        font-family="{font_family}" font-size="{font_size}"')
         lines.append(f'        fill="{key_color}"')
         lines.append(f'        style="animation: fadeSlideIn {fade_duration_ms}ms ease-out {delay}ms both;">')
-        lines.append(f'    {label}')
+        lines.append(f'    {escaped_label}')
         lines.append(f'  </text>')
 
         # Value
@@ -234,7 +244,7 @@ def generate_info_card_svg(
             lines.append(f'        font-family="{font_family}" font-size="{font_size}"')
             lines.append(f'        fill="{value_color}"')
             lines.append(f'        style="animation: fadeSlideIn {fade_duration_ms}ms ease-out {delay + 50}ms both;">')
-            lines.append(f'    {val}')
+            lines.append(f'    {escaped_val}')
             lines.append(f'  </text>')
 
     # Bottom border
