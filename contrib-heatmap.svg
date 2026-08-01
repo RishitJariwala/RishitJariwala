@@ -98,6 +98,12 @@
         style="animation: fadeIn 300ms ease-out 245ms both;">
     Jul
   </text>
+  <text x="898" y="24"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#8b949e" text-anchor="start"
+        style="animation: fadeIn 300ms ease-out 265ms both;">
+    Aug
+  </text>
   <text x="10" y="42"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="end"
