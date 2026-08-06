@@ -1989,7 +1989,7 @@
   <rect x="892" y="80"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#161b22"
+        fill="#39d353"
         style="animation: cellReveal 600ms ease-out 280ms both;" />
   <rect x="892" y="96"
         width="13" height="13"
@@ -2047,7 +2047,7 @@
         font-family="'Courier New', Courier, monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeIn 500ms ease-out 470ms both;">
-    8 contributions in the last year
+    9 contributions in the last year
   </text>
   <text x="42" y="194"
         font-family="'Courier New', Courier, monospace" font-size="12"
