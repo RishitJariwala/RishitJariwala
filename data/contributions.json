@@ -1,6 +1,6 @@
 {
   "username": "RishitJariwala",
-  "fetched_at": "2026-08-17T07:16:11.142322Z",
+  "fetched_at": "2026-08-18T07:04:22.353184Z",
   "days": [
     {
       "date": "2025-08-17",
@@ -946,6 +946,12 @@
     },
     {
       "date": "2026-08-11",
+      "count": 0,
+      "level": 0,
+      "weekday": 2
+    },
+    {
+      "date": "2026-08-18",
       "count": 0,
       "level": 0,
       "weekday": 2
@@ -4510,7 +4516,12 @@
         "level": 0,
         "weekday": 1
       },
-      null,
+      {
+        "date": "2026-08-18",
+        "count": 0,
+        "level": 0,
+        "weekday": 2
+      },
       null,
       null,
       null,
@@ -4543,5 +4554,5 @@
   },
   "average_daily": 0.0,
   "active_days": 5,
-  "inactive_days": 361
+  "inactive_days": 362
 }
