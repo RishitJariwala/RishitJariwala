@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="916" height="222"
-     viewBox="0 0 916 222"
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="222"
+     viewBox="0 0 900 222"
      style="background-color:#0d1117;">
   <style>
     @keyframes cellReveal {
@@ -26,76 +26,76 @@
         style="animation: fadeIn 300ms ease-out 0ms both;">
     Aug
   </text>
-  <text x="82" y="24"
+  <text x="66" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 10ms both;">
+        style="animation: fadeIn 300ms ease-out 5ms both;">
     Sep
   </text>
-  <text x="146" y="24"
+  <text x="130" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 30ms both;">
+        style="animation: fadeIn 300ms ease-out 25ms both;">
     Oct
   </text>
-  <text x="210" y="24"
+  <text x="194" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 50ms both;">
+        style="animation: fadeIn 300ms ease-out 45ms both;">
     Nov
   </text>
-  <text x="290" y="24"
+  <text x="274" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 75ms both;">
+        style="animation: fadeIn 300ms ease-out 70ms both;">
     Dec
   </text>
-  <text x="354" y="24"
+  <text x="338" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 95ms both;">
+        style="animation: fadeIn 300ms ease-out 90ms both;">
     Jan
   </text>
-  <text x="418" y="24"
+  <text x="402" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 115ms both;">
+        style="animation: fadeIn 300ms ease-out 110ms both;">
     Feb
   </text>
-  <text x="482" y="24"
+  <text x="466" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 135ms both;">
+        style="animation: fadeIn 300ms ease-out 130ms both;">
     Mar
   </text>
-  <text x="562" y="24"
+  <text x="546" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 160ms both;">
+        style="animation: fadeIn 300ms ease-out 155ms both;">
     Apr
   </text>
-  <text x="626" y="24"
+  <text x="610" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 180ms both;">
+        style="animation: fadeIn 300ms ease-out 175ms both;">
     May
   </text>
-  <text x="706" y="24"
+  <text x="690" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 205ms both;">
+        style="animation: fadeIn 300ms ease-out 200ms both;">
     Jun
   </text>
-  <text x="770" y="24"
+  <text x="754" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 225ms both;">
+        style="animation: fadeIn 300ms ease-out 220ms both;">
     Jul
   </text>
-  <text x="834" y="24"
+  <text x="818" y="24"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e" text-anchor="start"
-        style="animation: fadeIn 300ms ease-out 245ms both;">
+        style="animation: fadeIn 300ms ease-out 240ms both;">
     Aug
   </text>
   <text x="10" y="42"
@@ -1289,7 +1289,7 @@
   <rect x="572" y="80"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#161b22"
+        fill="#39d353"
         style="animation: cellReveal 600ms ease-out 180ms both;" />
   <rect x="572" y="96"
         width="13" height="13"
@@ -1324,7 +1324,7 @@
   <rect x="588" y="80"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#39d353"
+        fill="#161b22"
         style="animation: cellReveal 600ms ease-out 185ms both;" />
   <rect x="588" y="96"
         width="13" height="13"
@@ -1389,7 +1389,7 @@
   <rect x="620" y="64"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#161b22"
+        fill="#39d353"
         style="animation: cellReveal 600ms ease-out 190ms both;" />
   <rect x="620" y="80"
         width="13" height="13"
@@ -1424,7 +1424,7 @@
   <rect x="636" y="64"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#39d353"
+        fill="#161b22"
         style="animation: cellReveal 600ms ease-out 195ms both;" />
   <rect x="636" y="80"
         width="13" height="13"
@@ -1644,7 +1644,7 @@
   <rect x="732" y="96"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#161b22"
+        fill="#39d353"
         style="animation: cellReveal 600ms ease-out 235ms both;" />
   <rect x="732" y="112"
         width="13" height="13"
@@ -1679,7 +1679,7 @@
   <rect x="748" y="96"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#39d353"
+        fill="#161b22"
         style="animation: cellReveal 600ms ease-out 240ms both;" />
   <rect x="748" y="112"
         width="13" height="13"
@@ -1809,7 +1809,7 @@
   <rect x="812" y="64"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#161b22"
+        fill="#39d353"
         style="animation: cellReveal 600ms ease-out 250ms both;" />
   <rect x="812" y="80"
         width="13" height="13"
@@ -1844,12 +1844,12 @@
   <rect x="828" y="64"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#39d353"
+        fill="#161b22"
         style="animation: cellReveal 600ms ease-out 255ms both;" />
   <rect x="828" y="80"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#161b22"
+        fill="#39d353"
         style="animation: cellReveal 600ms ease-out 260ms both;" />
   <rect x="828" y="96"
         width="13" height="13"
@@ -1884,7 +1884,7 @@
   <rect x="844" y="80"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#39d353"
+        fill="#161b22"
         style="animation: cellReveal 600ms ease-out 265ms both;" />
   <rect x="844" y="96"
         width="13" height="13"
@@ -1971,88 +1971,53 @@
         rx="3" ry="3"
         fill="#161b22"
         style="animation: cellReveal 600ms ease-out 290ms both;" />
-  <rect x="892" y="32"
-        width="13" height="13"
-        rx="3" ry="3"
-        fill="#161b22"
-        style="animation: cellReveal 600ms ease-out 265ms both;" />
-  <rect x="892" y="48"
-        width="13" height="13"
-        rx="3" ry="3"
-        fill="#161b22"
-        style="animation: cellReveal 600ms ease-out 270ms both;" />
-  <rect x="892" y="64"
-        width="13" height="13"
-        rx="3" ry="3"
-        fill="#161b22"
-        style="animation: cellReveal 600ms ease-out 275ms both;" />
-  <rect x="892" y="80"
-        width="13" height="13"
-        rx="3" ry="3"
-        fill="#161b22"
-        style="animation: cellReveal 600ms ease-out 280ms both;" />
-  <rect x="892" y="96"
-        width="13" height="13"
-        rx="3" ry="3"
-        fill="#161b22"
-        style="animation: cellReveal 600ms ease-out 285ms both;" />
-  <rect x="892" y="112"
-        width="13" height="13"
-        rx="3" ry="3"
-        fill="#161b22"
-        style="animation: cellReveal 600ms ease-out 290ms both;" />
-  <rect x="892" y="128"
-        width="13" height="13"
-        rx="3" ry="3"
-        fill="#161b22"
-        style="animation: cellReveal 600ms ease-out 295ms both;" />
   <text x="42" y="152"
         font-family="'Courier New', Courier, monospace" font-size="11"
         fill="#8b949e"
-        style="animation: fadeIn 500ms ease-out 270ms both;">
+        style="animation: fadeIn 500ms ease-out 265ms both;">
     Less
   </text>
   <rect x="88" y="141"
         width="13" height="13"
         rx="3" ry="3"
         fill="#161b22"
-        style="animation: fadeIn 500ms ease-out 270ms both;" />
+        style="animation: fadeIn 500ms ease-out 265ms both;" />
   <rect x="105" y="141"
         width="13" height="13"
         rx="3" ry="3"
         fill="#0e4429"
-        style="animation: fadeIn 500ms ease-out 320ms both;" />
+        style="animation: fadeIn 500ms ease-out 315ms both;" />
   <rect x="122" y="141"
         width="13" height="13"
         rx="3" ry="3"
         fill="#006d32"
-        style="animation: fadeIn 500ms ease-out 370ms both;" />
+        style="animation: fadeIn 500ms ease-out 365ms both;" />
   <rect x="139" y="141"
         width="13" height="13"
         rx="3" ry="3"
         fill="#26a641"
-        style="animation: fadeIn 500ms ease-out 420ms both;" />
+        style="animation: fadeIn 500ms ease-out 415ms both;" />
   <rect x="156" y="141"
         width="13" height="13"
         rx="3" ry="3"
         fill="#39d353"
-        style="animation: fadeIn 500ms ease-out 470ms both;" />
+        style="animation: fadeIn 500ms ease-out 465ms both;" />
   <text x="173" y="152"
         font-family="'Courier New', Courier, monospace" font-size="11"
         fill="#8b949e"
-        style="animation: fadeIn 500ms ease-out 520ms both;">
+        style="animation: fadeIn 500ms ease-out 515ms both;">
     More
   </text>
   <text x="42" y="176"
         font-family="'Courier New', Courier, monospace" font-size="13"
         fill="#c9d1d9"
-        style="animation: fadeIn 500ms ease-out 470ms both;">
+        style="animation: fadeIn 500ms ease-out 465ms both;">
     9 contributions in the last year
   </text>
   <text x="42" y="194"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e"
-        style="animation: fadeIn 500ms ease-out 570ms both;">
+        style="animation: fadeIn 500ms ease-out 565ms both;">
     Current streak: 0d  |  Longest streak: 1d
   </text>
 </svg>
