@@ -1284,7 +1284,7 @@
   <rect x="572" y="64"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#39d353"
+        fill="#006d32"
         style="animation: cellReveal 600ms ease-out 175ms both;" />
   <rect x="572" y="80"
         width="13" height="13"
@@ -1704,7 +1704,7 @@
   <rect x="764" y="64"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#39d353"
+        fill="#006d32"
         style="animation: cellReveal 600ms ease-out 235ms both;" />
   <rect x="764" y="80"
         width="13" height="13"
@@ -1744,7 +1744,7 @@
   <rect x="780" y="80"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#39d353"
+        fill="#006d32"
         style="animation: cellReveal 600ms ease-out 245ms both;" />
   <rect x="780" y="96"
         width="13" height="13"
@@ -1979,12 +1979,12 @@
   <rect x="892" y="48"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#161b22"
+        fill="#39d353"
         style="animation: cellReveal 600ms ease-out 270ms both;" />
   <rect x="892" y="64"
         width="13" height="13"
         rx="3" ry="3"
-        fill="#161b22"
+        fill="#39d353"
         style="animation: cellReveal 600ms ease-out 275ms both;" />
   <rect x="892" y="80"
         width="13" height="13"
@@ -2047,12 +2047,12 @@
         font-family="'Courier New', Courier, monospace" font-size="13"
         fill="#c9d1d9"
         style="animation: fadeIn 500ms ease-out 470ms both;">
-    9 contributions in the last year
+    13 contributions in the last year
   </text>
   <text x="42" y="194"
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e"
         style="animation: fadeIn 500ms ease-out 570ms both;">
-    Current streak: 0d  |  Longest streak: 1d
+    Current streak: 2d  |  Longest streak: 2d
   </text>
 </svg>
