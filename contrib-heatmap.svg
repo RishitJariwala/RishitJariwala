@@ -2053,6 +2053,6 @@
         font-family="'Courier New', Courier, monospace" font-size="12"
         fill="#8b949e"
         style="animation: fadeIn 500ms ease-out 570ms both;">
-    Current streak: 2d  |  Longest streak: 2d
+    Current streak: 0d  |  Longest streak: 2d
   </text>
 </svg>
