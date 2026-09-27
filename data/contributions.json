@@ -1,13 +1,7 @@
 {
   "username": "RishitJariwala",
-  "fetched_at": "2026-09-26T11:25:22.575322Z",
+  "fetched_at": "2026-09-27T12:02:53.349038Z",
   "days": [
-    {
-      "date": "2025-09-21",
-      "count": 0,
-      "level": 0,
-      "weekday": 0
-    },
     {
       "date": "2025-09-28",
       "count": 0,
@@ -321,10 +315,10 @@
       "weekday": 0
     },
     {
-      "date": "2025-09-22",
+      "date": "2026-09-27",
       "count": 0,
       "level": 0,
-      "weekday": 1
+      "weekday": 0
     },
     {
       "date": "2025-09-29",
@@ -639,12 +633,6 @@
       "weekday": 1
     },
     {
-      "date": "2025-09-23",
-      "count": 0,
-      "level": 0,
-      "weekday": 2
-    },
-    {
       "date": "2025-09-30",
       "count": 0,
       "level": 0,
@@ -955,12 +943,6 @@
       "count": 3,
       "level": 2,
       "weekday": 2
-    },
-    {
-      "date": "2025-09-24",
-      "count": 0,
-      "level": 0,
-      "weekday": 3
     },
     {
       "date": "2025-10-01",
@@ -1275,12 +1257,6 @@
       "weekday": 3
     },
     {
-      "date": "2025-09-25",
-      "count": 0,
-      "level": 0,
-      "weekday": 4
-    },
-    {
       "date": "2025-10-02",
       "count": 0,
       "level": 0,
@@ -1593,12 +1569,6 @@
       "weekday": 4
     },
     {
-      "date": "2025-09-26",
-      "count": 0,
-      "level": 0,
-      "weekday": 5
-    },
-    {
       "date": "2025-10-03",
       "count": 0,
       "level": 0,
@@ -1909,12 +1879,6 @@
       "count": 10,
       "level": 4,
       "weekday": 5
-    },
-    {
-      "date": "2025-09-27",
-      "count": 0,
-      "level": 0,
-      "weekday": 6
     },
     {
       "date": "2025-10-04",
@@ -2232,7 +2196,7 @@
   "weeks": [
     [
       {
-        "date": "2025-09-21",
+        "date": "2025-09-28",
         "count": 0,
         "level": 0,
         "weekday": 0
@@ -2243,50 +2207,6 @@
       null,
       null,
       null
-    ],
-    [
-      {
-        "date": "2025-09-28",
-        "count": 0,
-        "level": 0,
-        "weekday": 0
-      },
-      {
-        "date": "2025-09-22",
-        "count": 0,
-        "level": 0,
-        "weekday": 1
-      },
-      {
-        "date": "2025-09-23",
-        "count": 0,
-        "level": 0,
-        "weekday": 2
-      },
-      {
-        "date": "2025-09-24",
-        "count": 0,
-        "level": 0,
-        "weekday": 3
-      },
-      {
-        "date": "2025-09-25",
-        "count": 0,
-        "level": 0,
-        "weekday": 4
-      },
-      {
-        "date": "2025-09-26",
-        "count": 0,
-        "level": 0,
-        "weekday": 5
-      },
-      {
-        "date": "2025-09-27",
-        "count": 0,
-        "level": 0,
-        "weekday": 6
-      }
     ],
     [
       {
@@ -4533,7 +4453,12 @@
       }
     ],
     [
-      null,
+      {
+        "date": "2026-09-27",
+        "count": 0,
+        "level": 0,
+        "weekday": 0
+      },
       {
         "date": "2026-09-21",
         "count": 3,
@@ -4598,5 +4523,5 @@
   },
   "average_daily": 0.1,
   "active_days": 10,
-  "inactive_days": 361
+  "inactive_days": 355
 }
