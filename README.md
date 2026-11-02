@@ -9,8 +9,8 @@
   <h3><code>RishitJariwala@github ~ $ <font color="#56d364">./contributions.sh</font></code></h3>
 
   <br>
-  <img src="https://raw.githubusercontent.com/RishitJariwala/RishitJariwala/output/snake.svg" alt="Snake animation" />
-  <!-- <img src="https://raw.githubusercontent.com/RishitJariwala/RishitJariwala/main/contrib-heatmap.svg" width="860" /> -->
+
+  <img src="https://raw.githubusercontent.com/RishitJariwala/RishitJariwala/main/contrib-heatmap.svg" width="860" />
 
   <br>
   <h3><code>RishitJariwala@github ~ $ <font color="#79c0ff">whoami</font></code></h3>
