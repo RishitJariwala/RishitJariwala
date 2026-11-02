@@ -63,3 +63,4 @@
 </details>
 
 </div>
+<img src="https://raw.githubusercontent.com/RishitJariwala/RishitJariwala/output/snake.svg" alt="Snake animation" />
