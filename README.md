@@ -9,7 +9,7 @@
   <h3><code>RishitJariwala@github ~ $ <font color="#56d364">./contributions.sh</font></code></h3>
 
   <br>
-
+  <img src="https://raw.githubusercontent.com/Alx-J/Alx-J/output/snake.svg" alt="Snake animation" />
   <img src="https://raw.githubusercontent.com/RishitJariwala/RishitJariwala/main/contrib-heatmap.svg" width="860" />
 
   <br>
